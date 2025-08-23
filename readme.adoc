@@ -4,3 +4,8 @@ Spring Boot App with HTML Controller
 
 - Start Application
 - Point browser to: http://localhost:8080/ which should display page1.html
+
+== Further Info
+
+- https://github.com/tschuehly/spring-view-component
+

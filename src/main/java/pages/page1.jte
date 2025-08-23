@@ -6,5 +6,7 @@
 </head>
 <body>
 <h1>Page 1</h1>
+
+<a href="/simple">Simple Component</a>
 </body>
 </html>

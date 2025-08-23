@@ -22,6 +22,7 @@
 		<!-- Encoding for sources, resources, Javadoc -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<jte.version>3.2.1</jte.version>
 	</properties>
 
 	<build>
@@ -77,7 +78,7 @@
 			<plugin>
 				<groupId>gg.jte</groupId>
 				<artifactId>jte-maven-plugin</artifactId>
-				<version>3.1.12</version>
+				<version>${jte.version}</version>
 				<configuration>
 					<sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
 					<contentType>Html</contentType>
@@ -110,12 +111,12 @@
 		<dependency>
 			<groupId>gg.jte</groupId>
 			<artifactId>jte-spring-boot-starter-3</artifactId>
-			<version>3.2.1</version>
+			<version>${jte.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>gg.jte</groupId>
 			<artifactId>jte</artifactId>
-			<version>3.2.1</version>
+			<version>${jte.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>de.tschuehly</groupId>
