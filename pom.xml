@@ -74,6 +74,24 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
+			<plugin>
+				<groupId>gg.jte</groupId>
+				<artifactId>jte-maven-plugin</artifactId>
+				<version>3.1.12</version>
+				<configuration>
+					<sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
+					<contentType>Html</contentType>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
 	</build>
 
@@ -98,6 +116,11 @@
 			<groupId>gg.jte</groupId>
 			<artifactId>jte</artifactId>
 			<version>3.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tschuehly</groupId>
+			<artifactId>spring-view-component-jte</artifactId>
+			<version>0.8.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.webjars.npm</groupId>
