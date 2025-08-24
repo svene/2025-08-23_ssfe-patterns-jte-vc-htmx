@@ -2,7 +2,7 @@
 
 @param Page1Component.Ctx ctx
 
-<%-- SSFE-PATTERN: Template-Injection --%>
+<!-- SSFE-PATTERN: Template-Injection -->
 @template.jte.layout(
 content = @`
 <h3>Page-1-Component</h3>

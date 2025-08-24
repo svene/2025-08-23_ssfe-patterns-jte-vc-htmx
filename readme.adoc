@@ -16,19 +16,13 @@ Spring Boot App with HTML Controller
 [source,html]
 .Page1Component.jte
 ----
-
-<!-- SSFE-PATTERN: Template-Injection: -->
 @import org.svenehrke.demo.web.pages.Page1Component
-@import org.svenehrke.demo.web.pages.Page2Component
 
 @param Page1Component.Ctx ctx
 
+<!-- SSFE-PATTERN: Template-Injection -->
 @template.jte.layout(
 content = @`
-    <nav>
-        <a href="${Page1Component.URL}">Page 1</a>
-        <a href="${Page2Component.URL}">Page 2</a>
-    </nav>
 <h3>Page-1-Component</h3>
 
 <div>${ctx.greeting()}</div>
@@ -39,6 +33,8 @@ content = @`
 .layout.jte
 ----
 @import gg.jte.Content
+@import org.svenehrke.demo.web.pages.Page1Component
+@import org.svenehrke.demo.web.pages.Page2Component
 
 @param Content content
 
@@ -51,6 +47,10 @@ content = @`
 </head>
 
 <body>
+<nav>
+    <a href="${Page1Component.URL}">Page 1</a>
+    <a href="${Page2Component.URL}">Page 2</a>
+</nav>
 		${content}
 </body>
 
@@ -64,7 +64,6 @@ content = @`
 [source,html]
 .Page2Component.jte
 ----
-@import org.svenehrke.demo.web.pages.Page1Component
 @import org.svenehrke.demo.web.pages.Page2Component
 
 @param Page2Component.Ctx ctx
@@ -75,10 +74,9 @@ content = @`
 <!-- SSFE-PATTERN: Template-Inclusion: -->
 @template.jte.pagestart()
 <body>
-<nav>
-    <a href="${Page1Component.URL}">Page 1</a>
-    <a href="${Page2Component.URL}">Page 2</a>
-</nav>
+<!-- SSFE-PATTERN: Template-Inclusion: -->
+@template.jte.pagenavigation()
+
 <h3>Page-2-Component</h3>
 
 <div>${ctx.greeting()}</div>
@@ -101,13 +99,25 @@ content = @`
 ----
 
 [source,html]
+.pagenavigation.jte
+----
+@import org.svenehrke.demo.web.pages.Page1Component
+@import org.svenehrke.demo.web.pages.Page2Component
+
+<nav>
+    <a href="${Page1Component.URL}">Page 1</a>
+    <a href="${Page2Component.URL}">Page 2</a>
+</nav>
+----
+
+[source,html]
 .pageend.jte
 ----
 <footer>Footer</footer>
 ----
 
 NOTE: JTE does not allow unclosed tags. In the example above this means the <body> start tag cannot be put at the end of pageend.jte for example.
-The workaround is to put it into the consumer (page2.jte).
+The workaround is to put it into the consumer (Page2Component.jte).
 This is acceptable for simple cases.  +
 For non-simple cases it is better to use the Template-Injection pattern (using JTE-content).
 
