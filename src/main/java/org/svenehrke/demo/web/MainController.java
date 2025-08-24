@@ -2,7 +2,7 @@ package org.svenehrke.demo.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.svenehrke.demo.web.pages.Page1Component;
+import org.svenehrke.demo.web.pages.InjectionPageComponent;
 
 @Controller
 public class MainController {
@@ -10,6 +10,6 @@ public class MainController {
 	@GetMapping("/")
 	public String redirectRoot() {
 		return "redirect:" +
-			Page1Component.URL;
+			InjectionPageComponent.URL;
 	}
 }

@@ -3,7 +3,7 @@ Spring Boot App with HTML Controller
 == Usage
 
 - Start Application
-- Point browser to: http://localhost:8080/ which should display page1.html
+- Point browser to: http://localhost:8080/ which should display the Injection-Page
 
 == Further Info
 
@@ -14,11 +14,11 @@ Spring Boot App with HTML Controller
 === Pattern: Template-Injection
 
 [source,html]
-.Page1Component.jte
+.InjectionPageComponent.jte
 ----
-@import org.svenehrke.demo.web.pages.Page1Component
+@import org.svenehrke.demo.web.pages.InjectionPageComponent
 
-@param Page1Component.Ctx ctx
+@param InjectionPageComponent.Ctx ctx
 
 <!-- SSFE-PATTERN: Template-Injection -->
 @template.jte.layout(
@@ -33,7 +33,7 @@ content = @`
 .layout.jte
 ----
 @import gg.jte.Content
-@import org.svenehrke.demo.web.pages.Page1Component
+@import org.svenehrke.demo.web.pages.InjectionPageComponent
 @import org.svenehrke.demo.web.pages.Page2Component
 
 @param Content content
@@ -48,7 +48,7 @@ content = @`
 
 <body>
 <nav>
-    <a href="${Page1Component.URL}">Page 1</a>
+    <a href="${InjectionPageComponent.URL}">Page 1</a>
     <a href="${Page2Component.URL}">Page 2</a>
 </nav>
 		${content}
@@ -101,11 +101,11 @@ content = @`
 [source,html]
 .pagenavigation.jte
 ----
-@import org.svenehrke.demo.web.pages.Page1Component
+@import org.svenehrke.demo.web.pages.InjectionPageComponent
 @import org.svenehrke.demo.web.pages.Page2Component
 
 <nav>
-    <a href="${Page1Component.URL}">Page 1</a>
+    <a href="${InjectionPageComponent.URL}">Page 1</a>
     <a href="${Page2Component.URL}">Page 2</a>
 </nav>
 ----
@@ -128,7 +128,7 @@ see: https://github.com/tschuehly/spring-view-component
 === Pattern: Insertion
 
 ==== Intent
-Structure HTML hierachically using components
+Structure HTML hierarchically using components
 
 ==== Implementation
 
