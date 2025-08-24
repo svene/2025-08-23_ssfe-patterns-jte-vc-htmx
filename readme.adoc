@@ -133,18 +133,28 @@ Structure HTML hierarchically using components
 ==== Implementation
 
 [source,html]
-.SomeComponent.jte
+.InsertionPageComponent.jte
 ----
 <div>
-  ${new ExistingTagsComponent.Ctx(ctx.bookmarkSessionService())}
+    ${new InsertableComponent.Ctx("hello")}
 </div>
 ----
 
 [source,html]
-.SomeComponent.jte, with event-support
+.InsertableComponent.jte
 ----
-<div hx-trigger="some-event from:body" hx-get="${ExistingTags.URL}">
-  ${new ExistingTagsComponent.Ctx(ctx.bookmarkSessionService())}
+@import org.svenehrke.demo.web.components.InsertableComponent
+
+@param InsertableComponent.Ctx ctx
+
+<div>Insertable-Component: ${ctx.greeting()}</div>
+----
+
+[source,html]
+.InsertionPageComponent.jte, with event-support
+----
+<div hx-trigger="some-event from:body" hx-get="${InsertableComponent.URL}">
+    ${new InsertableComponent.Ctx("hello")}
 </div>
 ----
 

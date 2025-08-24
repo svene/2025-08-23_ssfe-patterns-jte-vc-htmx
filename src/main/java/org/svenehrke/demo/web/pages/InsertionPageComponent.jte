@@ -1,4 +1,5 @@
 @import org.svenehrke.demo.web.pages.InsertionPageComponent
+@import org.svenehrke.demo.web.components.InsertableComponent
 
 @param InsertionPageComponent.Ctx ctx
 
@@ -7,5 +8,7 @@
 content = @`
 <h3>Insertion-Page-Component</h3>
 
-<div>${ctx.greeting()}</div>
+<div>
+    ${new InsertableComponent.Ctx("hello")}
+</div>
 `)
