@@ -279,6 +279,24 @@ public class ComponentForwarderPageComponent {
 	}
 }
 ----
+== Misc
+
+Nested contents are possible with JTE:
+
+[source,html]
+----
+@template.jte.layout(
+content = @`
+    <h3>Parent-Page-Component</h3>
+    <div>parent: before</div>
+    ${ctx.childCtx(@`
+        <div>slot-content from parent. Greeting: ${ctx.greeting()}</div>
+    `)}
+    <div>parent: after</div>
+`)
+----
+
+
 == TODO
 
 - OOB usage

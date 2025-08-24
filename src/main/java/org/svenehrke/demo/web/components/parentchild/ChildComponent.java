@@ -1,12 +1,10 @@
-package org.svenehrke.demo.web.components;
+package org.svenehrke.demo.web.components.parentchild;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 import gg.jte.Content;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
 @Controller
