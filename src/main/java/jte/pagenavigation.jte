@@ -10,5 +10,4 @@
     <a href="${InsertionPageComponent.URL}">Insertion-Page</a> |
     <a href="${ParentPageComponent.URL}">Parent-Child-Page</a> |
     <a href="${ComponentForwarderPageComponent.URL}">Component-Forwarder-Page</a> |
-    <a href="${ComponentForwarderPageComponent.URL}?greeting=forward">Component-Forwarder-Page: forward to InjectionPage</a> |
 </nav>
