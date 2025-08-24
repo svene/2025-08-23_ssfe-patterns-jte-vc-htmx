@@ -281,4 +281,6 @@ public class ComponentForwarderPageComponent {
 ----
 == TODO
 
+- OOB usage
+- events usage: `HtmxResponseUtils.setHxTrigger(response, SomeComponent.EVENT_URL_CHANGED);`
 - keep frontendstate in hidden input fields ?
