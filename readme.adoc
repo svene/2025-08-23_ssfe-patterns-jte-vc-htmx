@@ -9,6 +9,108 @@ Spring Boot App with HTML Controller
 
 - https://github.com/tschuehly/spring-view-component
 
+== Plain-JTE Patterns (WIP)
+
+=== Pattern: Template-Injection
+
+[source,html]
+.Page1Component.jte
+----
+
+<!-- SSFE-PATTERN: Template-Injection: -->
+@import org.svenehrke.demo.web.pages.Page1Component
+@import org.svenehrke.demo.web.pages.Page2Component
+
+@param Page1Component.Ctx ctx
+
+@template.jte.layout(
+content = @`
+    <nav>
+        <a href="${Page1Component.URL}">Page 1</a>
+        <a href="${Page2Component.URL}">Page 2</a>
+    </nav>
+<h3>Page-1-Component</h3>
+
+<div>${ctx.greeting()}</div>
+`)
+----
+
+[source,html]
+.layout.jte
+----
+@import gg.jte.Content
+
+@param Content content
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>SSFE-Patterns Demo with JTE-VC</title>
+	<script src="/webjars/htmx.org/2.0.4/dist/htmx.js"></script>
+</head>
+
+<body>
+		${content}
+</body>
+
+<footer>Footer</footer>
+</html>
+----
+
+
+=== Pattern: Template-Inclusion
+
+[source,html]
+.Page2Component.jte
+----
+@import org.svenehrke.demo.web.pages.Page1Component
+@import org.svenehrke.demo.web.pages.Page2Component
+
+@param Page2Component.Ctx ctx
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- SSFE-PATTERN: Template-Inclusion: -->
+@template.jte.pagestart()
+<body>
+<nav>
+    <a href="${Page1Component.URL}">Page 1</a>
+    <a href="${Page2Component.URL}">Page 2</a>
+</nav>
+<h3>Page-2-Component</h3>
+
+<div>${ctx.greeting()}</div>
+</body>
+
+<!-- SSFE-PATTERN: Template-Inclusion: -->
+@template.jte.pageend()
+
+</html>
+----
+
+[source,html]
+.pagestart.jte
+----
+<head>
+    <meta charset="UTF-8">
+	<title>SSFE-Patterns Demo with JTE-VC</title>
+	<script src="/webjars/htmx.org/2.0.4/dist/htmx.js"></script>
+</head>
+----
+
+[source,html]
+.pageend.jte
+----
+<footer>Footer</footer>
+----
+
+NOTE: JTE does not allow unclosed tags. In the example above this means the <body> start tag cannot be put at the end of pageend.jte for example.
+The workaround is to put it into the consumer (page2.jte).
+This is acceptable for simple cases.  +
+For non-simple cases it is better to use the Template-Injection pattern (using JTE-content).
+
 == JTE Spring View Component Patterns (WIP)
 
 see: https://github.com/tschuehly/spring-view-component
