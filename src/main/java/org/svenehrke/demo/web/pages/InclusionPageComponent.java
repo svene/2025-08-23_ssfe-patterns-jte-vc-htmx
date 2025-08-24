@@ -9,16 +9,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
 @Controller
-public class Page2Component {
+public class InclusionPageComponent {
 
-	public static final String URL = "/ui/pages/page2";
+	public static final String URL = "/ui/pages/inclusion";
 
 	public record Ctx(String greeting) implements ViewContext {
 	}
 
 	@GetMapping(URL)
 	public Ctx ctx(
-		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Page 2") String greeting
+		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Inclusion-Page") String greeting
 	) {
 		return new Ctx(greeting);
 	}

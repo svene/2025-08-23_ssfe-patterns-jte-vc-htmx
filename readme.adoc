@@ -34,7 +34,7 @@ content = @`
 ----
 @import gg.jte.Content
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
-@import org.svenehrke.demo.web.pages.Page2Component
+@import org.svenehrke.demo.web.pages.InclusionPageComponent
 
 @param Content content
 
@@ -64,7 +64,7 @@ content = @`
 [source,html]
 .Page2Component.jte
 ----
-@import org.svenehrke.demo.web.pages.Page2Component
+@import org.svenehrke.demo.web.pages.InclusionPageComponent
 
 @param Page2Component.Ctx ctx
 
@@ -102,7 +102,7 @@ content = @`
 .pagenavigation.jte
 ----
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
-@import org.svenehrke.demo.web.pages.Page2Component
+@import org.svenehrke.demo.web.pages.InclusionPageComponent
 
 <nav>
     <a href="${InjectionPageComponent.URL}">Page 1</a>

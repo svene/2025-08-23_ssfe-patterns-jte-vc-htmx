@@ -1,6 +1,6 @@
 @import gg.jte.Content
+@import org.svenehrke.demo.web.pages.InclusionPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
-@import org.svenehrke.demo.web.pages.Page2Component
 
 @param Content content
 
@@ -15,7 +15,7 @@
 <body>
 <nav>
     <a href="${InjectionPageComponent.URL}">Injection-Page</a>
-    <a href="${Page2Component.URL}">Page 2</a>
+    <a href="${InclusionPageComponent.URL}">Inclusion-Page</a>
 </nav>
 		${content}
 </body>

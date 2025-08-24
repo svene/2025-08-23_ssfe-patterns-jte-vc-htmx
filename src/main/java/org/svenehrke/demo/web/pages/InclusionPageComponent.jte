@@ -1,6 +1,6 @@
-@import org.svenehrke.demo.web.pages.Page2Component
+@import org.svenehrke.demo.web.pages.InclusionPageComponent
 
-@param Page2Component.Ctx ctx
+@param InclusionPageComponent.Ctx ctx
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@
 <!-- SSFE-PATTERN: Template-Inclusion: -->
 @template.jte.pagenavigation()
 
-<h3>Page-2-Component</h3>
+<h3>Inclusion-Page-Component</h3>
 
 <div>${ctx.greeting()}</div>
 </body>
