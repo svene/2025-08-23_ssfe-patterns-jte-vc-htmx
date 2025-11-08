@@ -13,9 +13,21 @@
     <meta charset="UTF-8">
 	<title>SSFE-Patterns Demo with JTE-VC</title>
 	<script src="/webjars/htmx.org/2.0.4/dist/htmx.js"></script>
+<%--    <link rel="stylesheet" href="/webjars/bulma/css/bulma.css"/>--%>
+    <link rel="stylesheet" href="/webjars/bulma/1.0.4/css/bulma.css"/>
 </head>
 
 <body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">SSFE-Patterns Demo with JTE-VC</h1>
+        <p class="subtitle">
+            SSFE-Patterns Demo with JTE-VC
+        </p>
+    </div>
+</section>
+
+
 <nav>
     <a href="${InjectionPageComponent.URL}">Injection-Page</a> |
     <a href="${InclusionPageComponent.URL}">Inclusion-Page</a> |
