@@ -8,14 +8,12 @@
  -->
 @template.jte.layout(
 content = @`
-    <h4 class="subtitle is-4">Injection-Page-Component</h4>
+    <h4 class="subtitle is-4">Injection-Page Template Pattern</h4>
 
-    <div class="card">
-        <div class="card-content">
             <div class="content">
-                <div>${ctx.greeting()}</div>
+                <p>${ctx.greeting()}</p>
+                <p>The content of this page is injected into the page-layout.</p>
+                <p>Note: not this component uses the injection pattern but the layout component.</p>
             </div>
-        </div>
-    </div>
 
 `)

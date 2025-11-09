@@ -43,11 +43,16 @@
         </div>
 
         <div class="column is-10">
-            ${content}
+            <div class="card">
+                <div class="card-content">
+                    ${content}
+                </div>
+            </div>
+
+            <footer class="has-text-centered">Footer</footer>
         </div>
     </div>
 </div>
 
 </body>
-
 </html>
