@@ -25,18 +25,19 @@
             @template.jte.pagenavigation()
         </div>
 
-        <div class="column is-10">
-            <h4 class="subtitle is-4">Inclusion-Page-Component</h4>
-
-            <div class="card">
                 <div class="card-content">
+                    <h4 class="subtitle is-4">Inclusion-Page-Component</h4>
                     <div class="content">
-                        <div>${ctx.greeting()}</div>
+                        <p>${ctx.greeting()}</p>
+                        <p>This page-component does not use a layout component</p>
+                        <p>Instead it constructs a page by including the common parts like header, navigation and footer itself.</p>
+                        <p>So this component has an active role in the process, not a passive one as in the Injection-Pattern</p>
+                        <p>In contrast to the layout component it knows its content</p>
+                        <p>In contrast to the layout component it is not reusable as a whole.
+                        Only the parts (header, navigation, footer) are reusable</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 </div>
 </body>
 
