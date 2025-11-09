@@ -31,7 +31,7 @@
         <div class="column is-2">
             <!-- See https://bulma.io/documentation/components/menu/ -->
             <aside class="menu">
-                <p class="menu-label">Signals</p>
+                <p class="menu-label">Template Patterns</p>
                 <ul class="menu-list">
                     <li><a href="${InjectionPageComponent.URL}">Injection-Page</a></li>
                     <li><a href="${InclusionPageComponent.URL}">Inclusion-Page</a></li>

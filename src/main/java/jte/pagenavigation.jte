@@ -5,7 +5,7 @@
 @import org.svenehrke.demo.web.pages.ComponentForwarderPageComponent
 
 <aside class="menu">
-    <p class="menu-label">Signals</p>
+    <p class="menu-label">Template Patterns</p>
     <ul class="menu-list">
         <li><a href="${InjectionPageComponent.URL}">Injection-Page</a></li>
         <li><a href="${InclusionPageComponent.URL}">Inclusion-Page</a></li>

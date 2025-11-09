@@ -2,10 +2,20 @@
 
 @param InjectionPageComponent.Ctx ctx
 
-<!-- SSFE-PATTERN: Template-Injection -->
+<!--
+    SSFE-PATTERN: Template-Injection:
+    the component is injected into the layout via the 'content' parameter
+ -->
 @template.jte.layout(
 content = @`
-<h3>Injection-Page-Component</h3>
+    <h4 class="subtitle is-4">Injection-Page-Component</h4>
 
-<div>${ctx.greeting()}</div>
+    <div class="card">
+        <div class="card-content">
+            <div class="content">
+                <div>${ctx.greeting()}</div>
+            </div>
+        </div>
+    </div>
+
 `)
