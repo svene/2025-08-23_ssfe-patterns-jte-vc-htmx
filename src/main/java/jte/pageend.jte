@@ -1,1 +1,1 @@
-<footer>Footer</footer>
+<footer class="has-text-centered">Footer</footer>
