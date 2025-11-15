@@ -15,6 +15,7 @@
 	<title>Application/Page Patterns</title>
 	<script src="/webjars/htmx.org/dist/htmx.js"></script>
     <link rel="stylesheet" href="/webjars/bulma/css/bulma.css"/>
+    <link rel="stylesheet" href="/main.css"/>
 </head>
 
 <body>
@@ -38,44 +39,9 @@
         </div>
     </nav>
 
-    <div class="p-1 mt-1" style="border-color: var(--bulma-info); border-style: solid; border-radius: 4px;">
+    <div class="p-1 mt-1 area-border" xstyle="border-color: var(--bulma-info); border-style: solid; border-radius: 4px;">
         ${content}
     </div>
-
-<%--
-    <div class="p-1 has-background-info">
-        ${content}
-    </div>
-
---%>
-<%--
-    <div class="columns">
-        <div class="column is-2">
-            <aside class="menu">
-                <p class="menu-label">Template Patterns</p>
-                <ul class="menu-list">
-                    <li><a href="${InjectionPageComponent.URL}">Injection-Page</a></li>
-                    <li><a href="${InsertionPageComponent.URL}">Insertion-Page</a></li>
-                    <li><a href="${ParentPageComponent.URL}">Parent-Child-Page</a></li>
-                    <li><a href="${ComponentForwarderPageComponent.URL}">Component-Forwarder-Page</a></li>
-                </ul>
-            </aside>
-        </div>
-
-        <div class="column is-10">
-            <div class="card">
-                <div class="card-content">
-                    ${content}
-                </div>
-            </div>
-
-            <footer class="has-text-centered">Footer</footer>
-        </div>
-    </div>
---%>
-
-
-
 </div>
 
 </body>

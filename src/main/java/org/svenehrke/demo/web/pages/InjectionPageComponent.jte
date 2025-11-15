@@ -9,10 +9,5 @@
 @template.jte.layout(
 selectedMenu = "injection",
 content = @`
-    <h4 class="subtitle is-4">Injection-Page Template Pattern</h4>
-
-    <div class="content">
-        <p>${ctx.greeting()}</p>
-    </div>
-
+    <h4 class="subtitle is-4">${ctx.greeting()}</h4>
 `)
