@@ -4,6 +4,7 @@
 @param ComponentForwarderPageComponent.Ctx ctx
 
 @template.jte.layout(
+selectedMenu = "forwarder",
 content = @`
 <h3>ComponentForwarder-Page-Component</h3>
 

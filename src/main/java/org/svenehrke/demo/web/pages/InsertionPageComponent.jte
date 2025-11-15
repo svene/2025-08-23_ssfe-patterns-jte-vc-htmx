@@ -5,6 +5,7 @@
 
 <!-- SSFE-PATTERN: Template-Injection -->
 @template.jte.layout(
+selectedMenu = "insertion",
 content = @`
 <h3>Insertion-Page-Component</h3>
 

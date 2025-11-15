@@ -4,6 +4,7 @@
 @param ParentPageComponent.Ctx ctx
 
 @template.jte.layout(
+selectedMenu = "parentchild",
 content = @`
 <h3>Parent-Page-Component</h3>
 

@@ -7,17 +7,12 @@
     the component is injected into the layout via the 'content' parameter
  -->
 @template.jte.layout(
+selectedMenu = "injection",
 content = @`
     <h4 class="subtitle is-4">Injection-Page Template Pattern</h4>
 
     <div class="content">
         <p>${ctx.greeting()}</p>
-        <p>The content of this page is injected into the page-layout.</p>
-        <p>Therefore the layout component has the active role in the template process because it includes this component (dynamically)</p>
-        <p>This component has a passive role because it is pulled in by the layout component</p>
-        <p>Therefore not this component uses the injection pattern but the layout component.</p>
-        <p>Due to the dynamic injection the layout component does not know the concrete content
-        and therefore is reusable</p>
     </div>
 
 `)
