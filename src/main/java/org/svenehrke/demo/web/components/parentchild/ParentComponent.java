@@ -11,7 +11,7 @@ public class ParentComponent {
 
 	public static final String URL = "/ui/components/parent";
 
-	public record Ctx(String greeting)  implements ViewContext {
+	public record Ctx(String greeting) implements ViewContext {
 		public ChildComponent.Ctx childCtx(Content slot) {
 			return new ChildComponent.Ctx(slot);
 		}

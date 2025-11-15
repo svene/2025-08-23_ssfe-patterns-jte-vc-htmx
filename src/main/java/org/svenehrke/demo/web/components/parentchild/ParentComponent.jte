@@ -3,8 +3,8 @@
 @param ParentComponent.Ctx ctx
 
 <h3>Parent-Component</h3>
-<div>parent: before</div>
+<div class="area-border p-1">
 ${ctx.childCtx(@`
-    <div>slot-content from parent. Greeting: ${ctx.greeting()}</div>
+    slot-content from parent. Greeting: ${ctx.greeting()}
 `)}
-<div>parent: after</div>
+</div>

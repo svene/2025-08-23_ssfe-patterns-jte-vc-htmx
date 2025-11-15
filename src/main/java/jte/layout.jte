@@ -31,10 +31,10 @@
         <div class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item ${ ("info".equals(selectedMenu)) ? "is-selected" : ""} " href="${TemplateInfoPageComponent.URL}">Info</a>
-                <a class="navbar-item ${ ("injection".equals(selectedMenu)) ? "is-selected" : ""} " href="${InjectionPageComponent.URL}">Injection Page</a>
-                <a class="navbar-item ${ ("insertion".equals(selectedMenu)) ? "is-selected" : ""} " href="${InsertionPageComponent.URL}">Insertion Page</a>
-                <a class="navbar-item ${ ("parentchild".equals(selectedMenu)) ? "is-selected" : ""} " href="${ParentPageComponent.URL}">Parent-Child-Page</a>
-                <a class="navbar-item ${ ("forwarder".equals(selectedMenu)) ? "is-selected" : ""} " href="${ComponentForwarderPageComponent.URL}">Component-Forwarder-Page</a>
+                <a class="navbar-item ${ ("injection".equals(selectedMenu)) ? "is-selected" : ""} " href="${InjectionPageComponent.URL}">Injection Pattern</a>
+                <a class="navbar-item ${ ("insertion".equals(selectedMenu)) ? "is-selected" : ""} " href="${InsertionPageComponent.URL}">Insertion Pattern</a>
+                <a class="navbar-item ${ ("parentchild".equals(selectedMenu)) ? "is-selected" : ""} " href="${ParentPageComponent.URL}">Parent-Child Pattern</a>
+                <a class="navbar-item ${ ("forwarder".equals(selectedMenu)) ? "is-selected" : ""} " href="${ComponentForwarderPageComponent.URL}">Component-Forwarder Pattern</a>
             </div>
         </div>
     </nav>
