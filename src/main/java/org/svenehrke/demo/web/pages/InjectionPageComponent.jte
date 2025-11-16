@@ -10,9 +10,8 @@
 selectedMenu = "injection",
 content = @`
     <div class="is-flex is-justify-content-space-around p-1">
+        <%-- Explaining code: --%>
         <div>
-
-            <%-- Explaining code: --%>
             <pre>
 &#64;template.jte.layout(
 content = &#64;&#96; // &lt;-- Inject content into layout
@@ -22,7 +21,7 @@ content = &#64;&#96; // &lt;-- Inject content into layout
         </div>
 
         <%-- Application: --%>
-        <div class="area-border p-1"> <%-- COMPONENT --%>
+        <div class="area-border p-1">
             <h4 class="subtitle is-4">${ctx.greeting()}</h4>
         </div>
     </div>
