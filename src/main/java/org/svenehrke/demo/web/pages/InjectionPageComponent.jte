@@ -9,5 +9,21 @@
 @template.jte.layout(
 selectedMenu = "injection",
 content = @`
-    <h4 class="subtitle is-4">${ctx.greeting()}</h4>
+    <div class="is-flex is-justify-content-space-around p-1">
+        <div>
+
+            <%-- Explaining code: --%>
+            <pre>
+&#64;template.jte.layout(
+content = &#64;&#96; // &lt;-- Inject content into layout
+  &lt;p&gt;Hello from Injection-Page&lt;/p&gt;
+&#96;)
+            </pre>
+        </div>
+
+        <%-- Application: --%>
+        <div class="area-border p-1"> <%-- COMPONENT --%>
+            <h4 class="subtitle is-4">${ctx.greeting()}</h4>
+        </div>
+    </div>
 `)
