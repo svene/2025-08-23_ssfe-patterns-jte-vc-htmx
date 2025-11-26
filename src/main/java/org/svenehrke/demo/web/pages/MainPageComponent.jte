@@ -23,6 +23,44 @@
     </section>
 
     <section class="section">
+        <h1 class="title">Basic UI Reuse Patterns</h1>
+        <h2 class="subtitle">
+            Basic Patterns for reusable UI parts and components
+        </h2>
+
+        <div class="fixed-grid">
+            <div class="grid">
+
+                @template.jte.maincard(
+                    url = "${InjectionPageComponent.URL}",
+                    title = @`JTE template`,
+                    content = @`Recommended for most use cases.`
+                )
+
+                @template.jte.maincard(
+                    url = "${InclusionPageComponent.URL}",
+                    title = @`JTE template<br>with simple parameters`,
+                    content = @`Recommended for most use cases.`
+                )
+
+                @template.jte.maincard(
+                    url = "${InclusionPageComponent.URL}",
+                    title = @`JTE template with slot parameters`,
+                    content = @`Recommended for most use cases.`
+                )
+
+                @template.jte.maincard(
+                    url = "${InclusionPageComponent.URL}",
+                    title = @`JTE template<br>with TODO`,
+                    content = @`Recommended for most use cases.`
+                )
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
         <h1 class="title">Application/Page Patterns</h1>
         <h2 class="subtitle">
             Patterns to build applications with one or multiple pages
@@ -30,31 +68,6 @@
 
         <div class="fixed-grid">
             <div class="grid">
-
-                <div class="cell is-flex is-justify-content-start is-align-items-center">
-                    <div class="card" style="width: 50%; height: 100%">
-                        <a href="${InjectionPageComponent.URL}" target="_blank">
-                            <header class="card-header">
-                                <p class="card-header-title">Template Pattern</p>
-                            </header>
-                            <div class="card-content">
-                                Recommended for most use cases.
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="cell is-flex is-justify-content-start is-align-items-center">
-                    <div class="card" style="width: 50%; height: 100%">
-                        <a href="${InclusionPageComponent.URL}" target="_blank">
-                            <header class="card-header">
-                                <p class="card-header-title">Include Pattern</p>
-                            </header>
-                            <div class="card-content">
-                                Recommended if default sections of Template Pattern are not appropriate for the use case.
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
                 <div class="cell is-flex is-justify-content-start is-align-items-center">
                     <div class="card" style="width: 50%; height: 100%">
