@@ -1,6 +1,7 @@
 @import gg.jte.Content
 
 @param Content content
+@param Content xhead = @``
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +11,7 @@
 	<script src="/webjars/htmx.org/dist/htmx.js"></script>
     <link rel="stylesheet" href="/webjars/bulma/css/bulma.css"/>
     <link rel="stylesheet" href="/main.css"/>
+    ${xhead}
 </head>
 
 <body>
