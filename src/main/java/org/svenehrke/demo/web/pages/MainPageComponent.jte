@@ -24,17 +24,18 @@
 
     <section class="section">
         <h1 class="title">Basic UI Reuse Patterns</h1>
-        <h2 class="subtitle">
-            Basic Patterns for reusable UI parts and components
-        </h2>
+        <h2 class="subtitle">for reusable UI parts and components</h2>
+
+        <h6 class="subtitle is-6">Plain JTE Template Files</h6>
 
         <div class="fixed-grid">
             <div class="grid">
 
+
                 @template.jte.maincard(
-                    url = InjectionPageComponent.URL,
+                    url = "/helloworld",
                     title = @`JTE template`,
-                    content = @`Recommended for most use cases.`
+                    content = @`Plain template via controller`
                 )
 
                 @template.jte.maincard(
@@ -55,6 +56,7 @@
                     content = @`Recommended for most use cases.`
                 )
 
+                <h6 class="subtitle is-6">Components</h6>
 
             </div>
         </div>
