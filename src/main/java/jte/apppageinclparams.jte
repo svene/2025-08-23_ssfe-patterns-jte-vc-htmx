@@ -6,7 +6,10 @@
 first parameter passed literally from this template.
 Second parameter coming in from controller through Model and passed to included template:
 -->
-@template.jte.helloworldparams(greeting = "Hello", greetee = greetee)
+@template.jte.helloworldparams(
+  greeting = "Hello",
+  greetee = greetee
+)
 
 <hr>
 <h5>src/main/java/.../ApplicationPageController.java:</h5>
@@ -29,10 +32,11 @@ public class ApplicationPageController {
 <pre><code>
 &#64;param String greetee  // &lt;=== from Model passed by Controller
 &lt;h1&gt;Application Page&lt;/h1&gt;
-&lt;!--first parameter passed literally from this template.
-Second parameter coming in from controller through Model and passed to included template:
---&gt;
-&#64;template.jte.helloworldparams(greeting = "Hello", greetee = greetee) // &lt;=== include the JTE partial
+
+&#64;template.jte.helloworldparams( // &lt;=== include the JTE partial
+  greeting = "Hello", // &lt;=== pass literal parameter to template
+  greetee = greetee // &lt;=== pass parameter coming from model to template
+)
 </code></pre>
 
 <h5>src/main/java/jte/helloworldparams.jte:</h5>
