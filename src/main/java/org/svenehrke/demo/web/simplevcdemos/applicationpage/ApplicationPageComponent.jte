@@ -18,6 +18,7 @@ public static final String URL = "/ui/demos/simplevc/applicationpage";
   }
 }
 </code></pre>
+
 <h5>src/main/java/.../ApplicationPageComponent.jte</h5>
 <pre><code>
 &lt;h1&gt;Application Page&lt;/h1&gt;
