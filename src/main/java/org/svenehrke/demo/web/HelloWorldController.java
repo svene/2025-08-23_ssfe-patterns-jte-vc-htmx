@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class HelloWorldController {
 
-	@GetMapping("/helloworld")
+	public static final String URL = "/helloworld";
+
+	@GetMapping(URL)
 	public String helloworld() {
 		return "jte/helloworld";
 	}

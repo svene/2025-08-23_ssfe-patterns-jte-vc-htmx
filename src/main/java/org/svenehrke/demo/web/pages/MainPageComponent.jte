@@ -1,3 +1,5 @@
+@import org.svenehrke.demo.web.ApplicationPageController
+@import org.svenehrke.demo.web.HelloWorldController
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
 @import org.svenehrke.demo.web.pages.pocs.wcswap.WCSwapPageComponent
@@ -19,6 +21,35 @@
             <p class="subtitle">
                 SSFE-Patterns Demo with JTE-VC
             </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h1 class="title">Plain JTE Template Files</h1>
+        <h2 class="subtitle">via controller</h2>
+
+        <div class="fixed-grid">
+            <div class="grid">
+
+                @template.jte.maincard(
+                url = ApplicationPageController.APP_PAGE_URL,
+                title = @`Application Page`,
+                content = @`Demo...`
+                )
+
+                @template.jte.maincard(
+                url = ApplicationPageController.APP_PAGE_INCL_URL,
+                title = @` Application Page using a partial`,
+                content = @`Demo...`
+                )
+
+                @template.jte.maincard(
+                url = ApplicationPageController.APP_PAGE_INCL_PARAMS_URL,
+                title = @` Application Page using a partial<br>with parameters`,
+                content = @`Demo...`
+                )
+
+            </div>
         </div>
     </section>
 
