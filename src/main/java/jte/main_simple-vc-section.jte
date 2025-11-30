@@ -1,5 +1,5 @@
 @import org.svenehrke.demo.web.ApplicationPageController
-@import org.svenehrke.demo.web.simplevcdemos.ApplicationPageComponent
+@import org.svenehrke.demo.web.simplevcdemos.applicationpage.ApplicationPageComponent
 
 <section class="section">
     <h1 class="title">Simple View Components</h1>
