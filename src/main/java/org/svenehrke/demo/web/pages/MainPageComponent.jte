@@ -18,11 +18,11 @@
         </div>
     </section>
 
-    @template.jte.main_plain-jte-section()
-    @template.jte.main_simple-vc-section()
-    @template.jte.main_basic-ui-reuse-section()
-    @template.jte.main_applicationpage-section()
-    @template.jte.main_experiments-section()
+    @template.jte.main_01_plain-jte-section()
+    @template.jte.main_02_simple-vc-section()
+    @template.jte.main_03_basic-ui-reuse-section()
+    @template.jte.main_04_applicationpage-section()
+    @template.jte.main_05_experiments-section()
 
 </div>
 
