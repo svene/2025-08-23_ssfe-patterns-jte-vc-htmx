@@ -312,3 +312,10 @@ content = @`
 - OOB usage
 - events usage: `HtmxResponseUtils.setHxTrigger(response, SomeComponent.EVENT_URL_CHANGED);`
 - keep frontendstate in hidden input fields ?
+
+== Notes
+
+simple jte:
+in controller you always have to
+return exact path to JTE.
+With VC it is implicit
