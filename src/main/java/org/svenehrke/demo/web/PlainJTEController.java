@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class ApplicationPageController {
+public class PlainJTEController {
 
 	public static final String APP_PAGE_URL = "/apppage";
 	public static final String APP_PAGE_INCL_URL = "/apppageincl";
