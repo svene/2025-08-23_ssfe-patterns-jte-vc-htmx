@@ -8,7 +8,7 @@ public class ApplicationPageController {
 
 	@GetMapping("/app")
 	public String app() {
-		return "jte/app";
+		return "jte/plainjte/app";
 	}
 }
 </code></pre>

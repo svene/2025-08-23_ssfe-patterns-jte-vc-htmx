@@ -1,4 +1,5 @@
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
+@import org.svenehrke.demo.web.HelloWorldController
 
 <section class="section">
     <h1 class="title">Basic UI Reuse Patterns</h1>
@@ -10,7 +11,7 @@
         <div class="grid">
 
             @template.jte.maincard(
-            url = "/helloworld",
+            url = HelloWorldController.URL,
             title = @`JTE template`,
             content = @`Plain template via controller`
             )

@@ -13,19 +13,19 @@ public class PlainJTEController {
 
 	@GetMapping(APP_PAGE_URL)
 	public String app() {
-		return "jte/app";
+		return "jte/plainjte/app";
 	}
 
 	@GetMapping(APP_PAGE_INCL_URL)
 	public String appPageIncl() {
-		return "jte/apppageincl";
+		return "jte/plainjte/apppageincl";
 	}
 
 	@GetMapping(APP_PAGE_INCL_PARAMS_URL)
 	public String app(Model model) {
 		var firstName = "Bart";
 		model.addAttribute("greetee", firstName);
-		return "jte/apppageinclparams";
+		return "jte/plainjte/apppageinclparams";
 	}
 
 }

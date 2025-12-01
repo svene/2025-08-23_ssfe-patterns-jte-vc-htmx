@@ -1,6 +1,6 @@
 <h1>Application Page</h1>
 
-@template.jte.helloworld()
+@template.jte.components.helloworld()
 
 <hr>
 <h5>src/main/java/.../ApplicationPageController.java</h5>
@@ -12,7 +12,7 @@ public class ApplicationPageController {
 
 	&#64;GetMapping(APP_PAGE_INCL_URL)
 	public String appPageIncl() {
-		return "jte/apppageincl";
+		return "jte/plainjte/apppageincl";
 	}
 }
 </code></pre>
@@ -20,7 +20,7 @@ public class ApplicationPageController {
 <h5>src/main/java/jte/app.jte</h5>
 <pre><code>
 &lt;h1&gt;Application Page&lt;/h1&gt;
-&#64;template.jte.helloworld() // &lt;--- include the JTE partial
+&#64;template.jte.components.helloworld() // &lt;--- include the JTE partial
 </code></pre>
 
 <h5>src/main/java/jte/helloworld.jte</h5>

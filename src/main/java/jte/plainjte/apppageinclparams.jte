@@ -6,7 +6,7 @@
 first parameter passed literally from this template.
 Second parameter coming in from controller through Model and passed to included template:
 -->
-@template.jte.helloworldparams(
+@template.jte.components.helloworldparams(
   greeting = "Hello",
   greetee = greetee
 )
@@ -23,7 +23,7 @@ public class ApplicationPageController {
 	public String appPageIncl(Model model) {
 		var firstName = "Bart";
 		model.addAttribute("greetee", firstName);
-		return "jte/apppageinclparams";
+		return "jte/plainjte/apppageinclparams";
 	}
 }
 </code></pre>
@@ -33,7 +33,7 @@ public class ApplicationPageController {
 &#64;param String greetee  // &lt;=== from Model passed by Controller
 &lt;h1&gt;Application Page&lt;/h1&gt;
 
-&#64;template.jte.helloworldparams( // &lt;=== include the JTE partial
+&#64;template.jte.components.helloworldparams( // &lt;=== include the JTE partial
   greeting = "Hello", // &lt;=== pass literal parameter to template
   greetee = greetee // &lt;=== pass parameter coming from model to template
 )
