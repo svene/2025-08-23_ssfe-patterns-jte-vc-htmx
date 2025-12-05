@@ -16,13 +16,13 @@
 
             @template.jte.maincard(
             url = ApplicationPageInclComponent.URL,
-            title = @` Application Page using a partial`,
+            title = @` Application Page using a component`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = ApplicationPageInclParamsComponent.URL,
-            title = @` Application Page using a partial<br>with parameters`,
+            title = @` Application Page using a component<br>with parameters`,
             content = @`Demo...`
             )
 
