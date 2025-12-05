@@ -1,14 +1,21 @@
 @import org.svenehrke.demo.web.simplevcdemos.applicationpageinclparams.HelloWorldParams
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/demopage.css"/>
+</head>
+
+<body class="page">
 <h1>Application Page</h1>
 
 ${new HelloWorldParams.Ctx("hello", "world")}
 ${HelloWorldParams.ctx("hello", "world")}
 
-<hr>
-<h5>src/main/java/.../ApplicationPageInclParamsComponent.java</h5>
-<pre><code>
-&#64;ViewComponent
+<div class="codeblock">
+<strong>src/main/java/.../ApplicationPageInclParamsComponent.java:</strong>
+<pre><code>&#64;ViewComponent
 &#64;Controller
 public class ApplicationPageInclParamsComponent {
 
@@ -24,16 +31,14 @@ public class ApplicationPageInclParamsComponent {
 }
 </code></pre>
 
-<h5>src/main/java/.../ApplicationPageInclParamsComponent.jte</h5>
-<pre><code>
-&lt;h1&gt;Application Page&lt;/h1&gt;
+<strong>src/main/java/.../ApplicationPageInclParamsComponent.jte:</strong>
+<pre><code>&lt;h1&gt;Application Page&lt;/h1&gt;
 &#36;{new HelloWorld.Ctx("hello", "world")} // &lt;=== include the View Component (variant 1)
 &#36;{HelloWorld.ctx("hello", "world")} // &lt;=== include the View Component (variant 2)
 </code></pre>
-
-<h5>src/main/java/.../HelloWorldParams.java</h5>
-<pre><code>
-&#64;ViewComponent
+<hr>
+<strong>src/main/java/.../HelloWorldParams.java:</strong>
+<pre><code>&#64;ViewComponent
 public class HelloWorldParams {
   public record Ctx(String greeting, String greetee) implements ViewContext { // &lt;=== include the View Component (variant 1)
   }
@@ -43,10 +48,13 @@ public class HelloWorldParams {
   }
 }
 </code></pre>
-
-<h5>src/main/java/.../HelloWorldParams.jte</h5>
-<pre><code>
-&#64;param HelloWorldParams.Ctx ctx
+<hr>
+<strong>src/main/java/.../HelloWorldParams.jte:</strong>
+<pre><code>&#64;param HelloWorldParams.Ctx ctx
 &lt;h3&gt;&#36;{ctx.greeting()} &#36;{ctx.greetee()}!&lt;/h3&gt;
 </code></pre>
 
+</div>
+
+</body>
+</html>

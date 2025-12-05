@@ -1,9 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/demopage.css"/>
+</head>
+
+<body class="page">
 <h1>Application Page</h1>
 
-<hr>
-<h5>src/main/java/.../ApplicationPageComponent.java</h5>
-<pre><code>
-&#64;ViewComponent
+<div class="codeblock">
+<strong>src/main/java/.../ApplicationPageComponent.java:</strong>
+<pre><code>&#64;ViewComponent
 &#64;Controller
 public class ApplicationPageComponent {
 
@@ -18,8 +25,12 @@ public static final String URL = "/ui/demos/simplevc/applicationpage";
   }
 }
 </code></pre>
-
-<h5>src/main/java/.../ApplicationPageComponent.jte</h5>
-<pre><code>
-&lt;h1&gt;Application Page&lt;/h1&gt;
+<hr>
+<strong>src/main/java/.../ApplicationPageComponent.jte:</strong>
+<pre><code>&lt;h1&gt;Application Page&lt;/h1&gt;
 </code></pre>
+
+</div>
+
+</body>
+</html>
