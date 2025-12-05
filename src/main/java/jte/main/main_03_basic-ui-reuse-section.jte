@@ -17,17 +17,9 @@
 
             @template.jte.maincard(
             url = InclusionPageComponent.URL,
-            title = @`JTE template with slot parameters`,
+            title = @`JTE template<br>with slot parameters`,
             content = @`Recommended for most use cases.`
             )
-
-            @template.jte.maincard(
-            url = InclusionPageComponent.URL,
-            title = @`JTE template<br>with TODO`,
-            content = @`Recommended for most use cases.`
-            )
-
-            <h6 class="subtitle is-6">Components</h6>
 
         </div>
     </div>
