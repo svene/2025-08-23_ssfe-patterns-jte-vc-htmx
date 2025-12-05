@@ -1,11 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/demopage.css"/>
+</head>
+<body class="page">
+
 <h1>Application Page</h1>
 
 @template.jte.components.helloworld()
 
-<hr>
-<h5>src/main/java/.../ApplicationPageController.java</h5>
-<pre><code>
-&#64;Controller
+<div class="codeblock">
+
+<strong>src/main/java/.../ApplicationPageController.java:</strong>
+<pre><code>&#64;Controller
 public class ApplicationPageController {
 
 	public static final String APP_PAGE_INCL_URL = "/apppageincl";
@@ -15,16 +23,19 @@ public class ApplicationPageController {
 		return "jte/plainjte/apppageincl";
 	}
 }
-</code></pre>
 
-<h5>src/main/java/jte/app.jte</h5>
-<pre><code>
-&lt;h1&gt;Application Page&lt;/h1&gt;
+</code></pre>
+<hr>
+<strong>src/main/java/jte/app.jte:</strong>
+<pre><code>&lt;h1&gt;Application Page&lt;/h1&gt;
 &#64;template.jte.components.helloworld() // &lt;--- include the JTE partial
 </code></pre>
-
-<h5>src/main/java/jte/helloworld.jte</h5>
-<pre><code>
-&lt;h3&gt;Hello world!&lt;/h3&gt;
+<hr>
+<strong>src/main/java/jte/helloworld.jte:</strong>
+<pre><code>&lt;h3&gt;Hello world!&lt;/h3&gt;
 </code></pre>
+</div>
+
+</body>
+</html>
 
