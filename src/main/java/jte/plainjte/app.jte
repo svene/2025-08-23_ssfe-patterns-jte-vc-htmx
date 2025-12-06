@@ -6,6 +6,7 @@
 </head>
 
 <body class="page">
+<div class="pagecontent">
 <h1>Application Page</h1>
 
 <div class="codeblock">
@@ -23,6 +24,7 @@ public class ApplicationPageController {
 <strong>src/main/java/jte/app.jte:</strong>
 <pre><code>&lt;h1&gt;Application Page&lt;/h1&gt;
 </code></pre>
+</div>
 </div>
 </body>
 </html>

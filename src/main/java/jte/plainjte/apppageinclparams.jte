@@ -8,6 +8,7 @@
 </head>
 <body class="page">
 
+<div class="pagecontent">
 <h1>Application Page</h1>
 
 <!--
@@ -58,5 +59,6 @@ public class ApplicationPageController {
 
 </div>
 
+</div>
 </body>
 </html>

@@ -10,6 +10,7 @@ public class PlainJTEController {
 	public static final String APP_PAGE_URL = "/apppage";
 	public static final String APP_PAGE_INCL_URL = "/apppageincl";
 	public static final String APP_PAGE_INCL_PARAMS_URL = "/apppageinclparams";
+	public static final String APP_PAGE_PASS_CONTENT_URL = "/apppagepasscontent";
 
 	@GetMapping(APP_PAGE_URL)
 	public String app() {
@@ -22,10 +23,15 @@ public class PlainJTEController {
 	}
 
 	@GetMapping(APP_PAGE_INCL_PARAMS_URL)
-	public String app(Model model) {
+	public String appPageInclParams(Model model) {
 		var firstName = "Bart";
 		model.addAttribute("greetee", firstName);
 		return "jte/plainjte/apppageinclparams";
+	}
+
+	@GetMapping(APP_PAGE_PASS_CONTENT_URL)
+	public String appPagePassContent() {
+		return "jte/plainjte/apppagepasscontent";
 	}
 
 }

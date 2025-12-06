@@ -1,8 +1,13 @@
 .page {
 	background-color: #4a87a9;
-	color: #ffffff
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
+.pagecontent {
+}
 .codeblock {
 	background-color: white;
 	color: black;

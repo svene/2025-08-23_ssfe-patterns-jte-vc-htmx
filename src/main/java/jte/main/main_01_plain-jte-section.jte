@@ -24,6 +24,12 @@
             content = @`Demo...`
             )
 
+            @template.jte.maincard(
+            url = PlainJTEController.APP_PAGE_PASS_CONTENT_URL,
+            title = @` Application Page using a partial<br>and pass content`,
+            content = @`Demo...`
+            )
+
         </div>
     </div>
 </section>

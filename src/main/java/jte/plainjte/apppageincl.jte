@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/demopage.css"/>
 </head>
 <body class="page">
-
+<div class="pagecontent">
 <h1>Application Page</h1>
 
 @template.jte.components.helloworld()
@@ -36,6 +36,7 @@ public class ApplicationPageController {
 </code></pre>
 </div>
 
+</div>
 </body>
 </html>
 

@@ -6,6 +6,7 @@
 </head>
 
 <body class="page">
+<div class="pagecontent">
 <h1>Application Page</h1>
 
 <div class="codeblock">
@@ -32,5 +33,6 @@ public static final String URL = "/ui/demos/simplevc/applicationpage";
 
 </div>
 
+</div>
 </body>
 </html>

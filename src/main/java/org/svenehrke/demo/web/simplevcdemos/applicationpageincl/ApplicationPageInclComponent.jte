@@ -8,6 +8,7 @@
 </head>
 
 <body class="page">
+<div class="pagecontent">
 <h1>Application Page</h1>
 
 ${new HelloWorld.Ctx()}
@@ -56,5 +57,6 @@ public class HelloWorld {
 
 </div>
 
+</div>
 </body>
 </html>
