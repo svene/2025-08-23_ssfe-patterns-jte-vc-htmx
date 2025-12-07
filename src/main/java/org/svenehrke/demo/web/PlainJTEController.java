@@ -11,6 +11,7 @@ public class PlainJTEController {
 	public static final String APP_PAGE_INCL_URL = "/apppageincl";
 	public static final String APP_PAGE_INCL_PARAMS_URL = "/apppageinclparams";
 	public static final String APP_PAGE_PASS_CONTENT_URL = "/apppagepasscontent";
+	public static final String APP_PAGE_NESTED_URL = "/apppagenested";
 
 	@GetMapping(APP_PAGE_URL)
 	public String app() {
@@ -32,6 +33,11 @@ public class PlainJTEController {
 	@GetMapping(APP_PAGE_PASS_CONTENT_URL)
 	public String appPagePassContent() {
 		return "jte/plainjte/apppagepasscontent";
+	}
+
+	@GetMapping(APP_PAGE_NESTED_URL)
+	public String appPageNested() {
+		return "jte/plainjte/apppagenested";
 	}
 
 }

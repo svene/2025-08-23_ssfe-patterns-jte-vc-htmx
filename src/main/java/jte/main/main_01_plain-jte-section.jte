@@ -30,6 +30,12 @@
             content = @`Demo...`
             )
 
+            @template.jte.maincard(
+            url = PlainJTEController.APP_PAGE_NESTED_URL,
+            title = @`Component<br>with nested templates`,
+            content = @`Demo...`
+            )
+
         </div>
     </div>
 </section>
