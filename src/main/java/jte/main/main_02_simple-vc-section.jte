@@ -1,6 +1,6 @@
 @import org.svenehrke.demo.web.simplevcdemos.applicationpage.ApplicationPageComponent
 @import org.svenehrke.demo.web.simplevcdemos.applicationpageincl.ApplicationPageInclComponent
-@import org.svenehrke.demo.web.simplevcdemos.applicationpageinclparams.ApplicationPageInclParamsComponent
+@import org.svenehrke.demo.web.simplevcdemos.applicationpageinclparams.AppPageInclParams
 
 <section class="section">
     <h1 class="title">Simple View Components</h1>
@@ -21,7 +21,7 @@
             )
 
             @template.jte.maincard(
-            url = ApplicationPageInclParamsComponent.URL,
+            url = AppPageInclParams.URL,
             title = @`Component<br>with parameters`,
             content = @`Demo...`
             )

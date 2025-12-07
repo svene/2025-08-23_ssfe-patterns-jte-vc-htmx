@@ -316,6 +316,6 @@ content = @`
 == Notes
 
 simple jte:
-in controller you always have to
-return exact path to JTE.
+- in controller you always have to return exact path to JTE.
 With VC it is implicit
+- Use URL constants for Controller-View Components
