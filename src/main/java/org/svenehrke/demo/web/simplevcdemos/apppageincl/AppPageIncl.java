@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class AppPageIncl {
 
-	public static final String URL = "/ui/demos/simplevc/applicationpageincl";
+	public static final String URL = "/ui/demos/simplevc/apppageincl";
 
 	public record Ctx() implements ViewContext {
 	}
