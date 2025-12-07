@@ -1,5 +1,5 @@
 @import org.svenehrke.demo.web.simplevcdemos.page.Page
-@import org.svenehrke.demo.web.simplevcdemos.apppageincl.AppPageIncl
+@import org.svenehrke.demo.web.simplevcdemos.apppageincl.PageWithComponent
 @import org.svenehrke.demo.web.simplevcdemos.apppageinclparams.AppPageInclParams
 
 <section class="section">
@@ -15,7 +15,7 @@
             )
 
             @template.jte.maincard(
-            url = AppPageIncl.URL,
+            url = PageWithComponent.URL,
             title = @`With component`,
             content = @`Demo...`
             )

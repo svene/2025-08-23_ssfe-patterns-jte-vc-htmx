@@ -1,11 +1,11 @@
 <div class="codeblock">
 
-    <strong>src/main/java/.../AppPageIncl.java:</strong>
+    <strong>src/main/java/.../PageWithComponent.java:</strong>
     <pre><code>&#64;ViewComponent
 &#64;Controller
-public class AppPageIncl {
+public class PageWithComponent {
 
-  public static final String URL = "/ui/demos/simplevc/apppageincl";
+  public static final String URL = "/ui/demos/simplevc/pagewithcomponent";
 
   public record Ctx() implements ViewContext {
   }
@@ -17,7 +17,7 @@ public class AppPageIncl {
 }
 </code></pre>
     <hr>
-    <strong>src/main/java/.../AppPageIncl.jte:</strong>
+    <strong>src/main/java/.../PageWithComponent.jte:</strong>
     <pre><code>&lt;h1&gt;Application Page&lt;/h1&gt;
 &#36;{new HelloWorld.Ctx()} // &lt;=== include the View Component (variant 1)
 &#36;{HelloWorld.ctx()} // &lt;=== include the View Component (variant 2)

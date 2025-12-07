@@ -1,5 +1,5 @@
 @import org.svenehrke.demo.web.simplevcdemos.apppageincl.HelloWorld
-@import org.svenehrke.demo.web.simplevcdemos.apppageincl.AppPageInclCode
+@import org.svenehrke.demo.web.simplevcdemos.apppageincl.PageWithComponentCode
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
 ${new HelloWorld.Ctx()}
 ${HelloWorld.ctx()}
 
-${new AppPageInclCode.Ctx()}
+${new PageWithComponentCode.Ctx()}
 
 </div>
 </body>
