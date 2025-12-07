@@ -2,31 +2,31 @@
 
 <section class="section">
     <h1 class="title">Plain JTE Template Files</h1>
-    <h2 class="subtitle">via controller</h2>
+    <h2 class="subtitle">Application Pages via controller</h2>
 
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_URL,
-            title = @`Application Page`,
+            title = @`Basic`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_INCL_URL,
-            title = @` Application Page using a partial`,
+            title = @`With component`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_INCL_PARAMS_URL,
-            title = @` Application Page using a partial<br>with parameters`,
+            title = @`Component<br>with parameters`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_PASS_CONTENT_URL,
-            title = @` Application Page using a partial<br>and pass content`,
+            title = @`Component<br>with content parameter`,
             content = @`Demo...`
             )
 

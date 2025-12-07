@@ -4,25 +4,25 @@
 
 <section class="section">
     <h1 class="title">Simple View Components</h1>
-    <h2 class="subtitle">View Component Variants of the plain JTE Template Files Demos</h2>
+    <h2 class="subtitle">Application Pages using View Components</h2>
 
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.maincard(
             url = ApplicationPageComponent.URL,
-            title = @`Application Page`,
+            title = @`Basic`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = ApplicationPageInclComponent.URL,
-            title = @` Application Page using a component`,
+            title = @`With component`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = ApplicationPageInclParamsComponent.URL,
-            title = @` Application Page using a component<br>with parameters`,
+            title = @`Component<br>with parameters`,
             content = @`Demo...`
             )
 
