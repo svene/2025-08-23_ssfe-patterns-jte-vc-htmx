@@ -1,5 +1,6 @@
 @import org.svenehrke.demo.web.simplevcdemos.page.Page
 @import org.svenehrke.demo.web.simplevcdemos.apppageincl.PageWithComponent
+@import org.svenehrke.demo.web.simplevcdemos.pagewithcontentparamscomponent.PageWithContentParamsComponent
 @import org.svenehrke.demo.web.simplevcdemos.pagewithparamscomponent.PageWithParamsComponent
 
 <section class="section">
@@ -23,6 +24,12 @@
             @template.jte.maincard(
             url = PageWithParamsComponent.URL,
             title = @`Component<br>with parameters`,
+            content = @`Demo...`
+            )
+
+            @template.jte.maincard(
+            url = PageWithContentParamsComponent.URL,
+            title = @`Component<br>with content parameter`,
             content = @`Demo...`
             )
 
