@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.simplevcdemos.apppage.AppPageComponent
-@import org.svenehrke.demo.web.simplevcdemos.apppageincl.AppPageInclComponent
+@import org.svenehrke.demo.web.simplevcdemos.apppage.AppPage
+@import org.svenehrke.demo.web.simplevcdemos.apppageincl.AppPageIncl
 @import org.svenehrke.demo.web.simplevcdemos.apppageinclparams.AppPageInclParams
 
 <section class="section">
@@ -9,13 +9,13 @@
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.maincard(
-            url = AppPageComponent.URL,
+            url = AppPage.URL,
             title = @`Basic`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
-            url = AppPageInclComponent.URL,
+            url = AppPageIncl.URL,
             title = @`With component`,
             content = @`Demo...`
             )

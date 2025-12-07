@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @ViewComponent
 @Controller
-public class AppPageComponent {
+public class AppPage {
 
-	public static final String URL = "/ui/demos/simplevc/applicationpage";
+	public static final String URL = "/ui/demos/simplevc/apppage";
 
 	public record Ctx() implements ViewContext {
 	}
