@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.simplevcdemos.apppage.AppPageCode
+@import org.svenehrke.demo.web.simplevcdemos.page.PageCode
 <!DOCTYPE html>
 
 <html lang="en">
@@ -11,7 +11,7 @@
 <div class="pagecontent">
 <h1>Application Page</h1>
 
-${new AppPageCode.Ctx()}
+${new PageCode.Ctx()}
 
 </div>
 </body>

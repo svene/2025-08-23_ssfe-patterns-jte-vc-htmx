@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.simplevcdemos.apppage.AppPage
+@import org.svenehrke.demo.web.simplevcdemos.page.Page
 @import org.svenehrke.demo.web.simplevcdemos.apppageincl.AppPageIncl
 @import org.svenehrke.demo.web.simplevcdemos.apppageinclparams.AppPageInclParams
 
@@ -9,7 +9,7 @@
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.maincard(
-            url = AppPage.URL,
+            url = Page.URL,
             title = @`Basic`,
             content = @`Demo...`
             )
