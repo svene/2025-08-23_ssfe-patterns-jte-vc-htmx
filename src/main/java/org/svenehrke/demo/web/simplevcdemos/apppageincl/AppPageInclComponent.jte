@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.simplevcdemos.applicationpageincl.HelloWorld
+@import org.svenehrke.demo.web.simplevcdemos.apppageincl.HelloWorld
 
 <!DOCTYPE html>
 <html lang="en">

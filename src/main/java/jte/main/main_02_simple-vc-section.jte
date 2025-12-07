@@ -1,6 +1,6 @@
-@import org.svenehrke.demo.web.simplevcdemos.applicationpage.ApplicationPageComponent
-@import org.svenehrke.demo.web.simplevcdemos.applicationpageincl.ApplicationPageInclComponent
-@import org.svenehrke.demo.web.simplevcdemos.applicationpageinclparams.AppPageInclParams
+@import org.svenehrke.demo.web.simplevcdemos.apppage.AppPageComponent
+@import org.svenehrke.demo.web.simplevcdemos.apppageincl.AppPageInclComponent
+@import org.svenehrke.demo.web.simplevcdemos.apppageinclparams.AppPageInclParams
 
 <section class="section">
     <h1 class="title">Simple View Components</h1>
@@ -9,13 +9,13 @@
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.maincard(
-            url = ApplicationPageComponent.URL,
+            url = AppPageComponent.URL,
             title = @`Basic`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
-            url = ApplicationPageInclComponent.URL,
+            url = AppPageInclComponent.URL,
             title = @`With component`,
             content = @`Demo...`
             )

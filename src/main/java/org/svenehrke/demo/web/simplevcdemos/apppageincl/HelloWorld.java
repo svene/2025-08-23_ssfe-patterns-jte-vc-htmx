@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.simplevcdemos.applicationpageincl;
+package org.svenehrke.demo.web.simplevcdemos.apppageincl;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;

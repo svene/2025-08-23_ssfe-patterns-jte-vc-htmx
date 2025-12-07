@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.simplevcdemos.applicationpage;
+package org.svenehrke.demo.web.simplevcdemos.apppageincl;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @ViewComponent
 @Controller
-public class ApplicationPageComponent {
+public class AppPageInclComponent {
 
-	public static final String URL = "/ui/demos/simplevc/applicationpage";
+	public static final String URL = "/ui/demos/simplevc/applicationpageincl";
 
 	public record Ctx() implements ViewContext {
 	}
