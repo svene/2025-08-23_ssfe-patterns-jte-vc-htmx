@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.simplevcdemos.apppageinclparams.HelloWorldParams
-@import org.svenehrke.demo.web.simplevcdemos.apppageinclparams.AppPageInclParamsCode
+@import org.svenehrke.demo.web.simplevcdemos.pagewithparamscomponent.HelloWorldParams
+@import org.svenehrke.demo.web.simplevcdemos.pagewithparamscomponent.PageWithParamsComponentCode
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
 ${new HelloWorldParams.Ctx("hello", "world")}
 ${HelloWorldParams.ctx("hello", "world")}
 
-${new AppPageInclParamsCode.Ctx()}
+${new PageWithParamsComponentCode.Ctx()}
 
 </div>
 </body>
