@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
 @Controller
-public class BasicPageWithParam {
-	public static final String URL = "/ui/pages/basicpagewithparam";
+public class ContentPageWithParam {
+	public static final String URL = "/ui/pages/contentpagewithparam";
 
 	public record Ctx(String greeting) implements ViewContext {
 	}

@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @ViewComponent
 @Controller
-public class BasicPage {
-	public static final String URL = "/ui/pages/basicpage";
+public class ContentPage {
+	public static final String URL = "/ui/pages/contentpage";
 
 	public record Ctx() implements ViewContext {
 	}

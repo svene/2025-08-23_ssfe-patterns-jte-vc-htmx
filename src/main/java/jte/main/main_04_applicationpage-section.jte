@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.pages.BasicPage
-@import org.svenehrke.demo.web.pages.BasicPageWithParam
+@import org.svenehrke.demo.web.pages.ContentPage
+@import org.svenehrke.demo.web.pages.ContentPageWithParam
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
 
@@ -13,15 +13,15 @@
         <div class="grid">
 
             @template.jte.maincard(
-            url = BasicPage.URL,
-            title = @`Page Template<br>Basic Page`,
-            content = @`TODO`
+            url = ContentPage.URL,
+            title = @`Content Page`,
+            content = @`Demo...`
             )
 
             @template.jte.maincard(
-            url = BasicPageWithParam.URL,
-            title = @`Page Template<br>Basic Page with Param`,
-            content = @`TODO`
+            url = ContentPageWithParam.URL,
+            title = @`Content Page with Param`,
+            content = @`Demo...`
             )
 
             @template.jte.maincard(
