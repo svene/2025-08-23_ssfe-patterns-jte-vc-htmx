@@ -1,5 +1,6 @@
 @import org.svenehrke.demo.web.pages.ContentPage
 @import org.svenehrke.demo.web.pages.ContentPageWithParam
+@import org.svenehrke.demo.web.pages.CustomPageWithParam
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
 
@@ -21,6 +22,12 @@
             @template.jte.maincard(
             url = ContentPageWithParam.URL,
             title = @`Content Page with Param`,
+            content = @`Demo...`
+            )
+
+            @template.jte.maincard(
+            url = org.svenehrke.demo.web.pages.CustomPageWithParam.URL,
+            title = @`Custom Page with Param`,
             content = @`Demo...`
             )
 
