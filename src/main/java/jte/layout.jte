@@ -39,7 +39,7 @@
         </div>
     </nav>
 
-    <div class="p-1 mt-1 area-border" xstyle="border-color: var(--bulma-info); border-style: solid; border-radius: 4px;">
+    <div class="p-1 mt-1 area-border">
         ${content}
     </div>
 </div>

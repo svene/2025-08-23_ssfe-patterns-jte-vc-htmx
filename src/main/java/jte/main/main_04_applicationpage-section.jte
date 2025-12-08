@@ -1,3 +1,5 @@
+@import org.svenehrke.demo.web.pages.BasicPage
+@import org.svenehrke.demo.web.pages.BasicPageWithParam
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
 
@@ -9,6 +11,18 @@
 
     <div class="fixed-grid">
         <div class="grid">
+
+            @template.jte.maincard(
+            url = BasicPage.URL,
+            title = @`Page Template<br>Basic Page`,
+            content = @`TODO`
+            )
+
+            @template.jte.maincard(
+            url = BasicPageWithParam.URL,
+            title = @`Page Template<br>Basic Page with Param`,
+            content = @`TODO`
+            )
 
             @template.jte.maincard(
             url = InjectionPageComponent.URL,
