@@ -1,0 +1,7 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Application Page</title>
+    <script src="/webjars/htmx.org/dist/htmx.js"></script>
+    <link rel="stylesheet" href="/webjars/bulma/css/bulma.css"/>
+    <link rel="stylesheet" href="/main.css"/>
+</head>
