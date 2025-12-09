@@ -1,5 +1,5 @@
 @import org.svenehrke.demo.web.pages.contentpage.ContentPage
-@import org.svenehrke.demo.web.pages.ContentPageWithParam
+@import org.svenehrke.demo.web.pages.contentpagewithparam.ContentPageWithParam
 @import org.svenehrke.demo.web.pages.CustomPageWithParam
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
