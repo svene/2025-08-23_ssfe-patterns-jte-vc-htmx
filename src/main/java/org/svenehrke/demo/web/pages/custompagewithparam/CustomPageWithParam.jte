@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.pages.CustomPageWithParam
+@import org.svenehrke.demo.web.pages.custompagewithparam.CustomPageWithParam
 
 @param CustomPageWithParam.Ctx ctx
 

@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.pages;
+package org.svenehrke.demo.web.pages.custompagewithparam;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
