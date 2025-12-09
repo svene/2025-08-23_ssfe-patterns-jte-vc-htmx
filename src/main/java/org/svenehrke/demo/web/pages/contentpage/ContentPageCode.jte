@@ -1,6 +1,6 @@
 <hr>
 <h2 class="subtitle">Code</h2>
-<div class="codeblock">
+<div>
     <strong>src/main/java/.../ContentPage.java:</strong>
     <pre><code>&#64;ViewComponent
 &#64;Controller

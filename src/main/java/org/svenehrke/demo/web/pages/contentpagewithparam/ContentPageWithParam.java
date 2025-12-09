@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class ContentPageWithParam {
 	public static final String URL = "/ui/pages/contentpagewithparam";
 
-	public record Ctx(String greeting) implements ViewContext {
-	}
+	public record Ctx(String greeting) implements ViewContext {}
 
 	@GetMapping(URL)
 	public Ctx ctx(
