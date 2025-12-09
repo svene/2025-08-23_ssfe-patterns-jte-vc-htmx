@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.pages.ContentPage
+@import org.svenehrke.demo.web.pages.contentpage.ContentPage
 @import org.svenehrke.demo.web.pages.ContentPageWithParam
 @import org.svenehrke.demo.web.pages.CustomPageWithParam
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
