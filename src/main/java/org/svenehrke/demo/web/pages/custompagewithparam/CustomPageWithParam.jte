@@ -1,4 +1,5 @@
 @import org.svenehrke.demo.web.pages.custompagewithparam.CustomPageWithParam
+@import org.svenehrke.demo.web.pages.custompagewithparam.CustomPageWithParamCode
 
 @param CustomPageWithParam.Ctx ctx
 
@@ -11,6 +12,7 @@
 
     <div class="p-1 mt-1">
         <h1 class="title">Custom Page with Param says: ${ctx.greeting()}</h1>
+        ${new CustomPageWithParamCode.Ctx()}
     </div>
 </div>
 
