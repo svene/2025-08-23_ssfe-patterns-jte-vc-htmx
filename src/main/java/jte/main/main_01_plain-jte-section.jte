@@ -1,8 +1,8 @@
 @import org.svenehrke.demo.web.PlainJTEController
 
 <section class="section">
-    <h1 class="title">Plain JTE Page Templates</h1>
-    <h2 class="subtitle">for basic usecases (needs a spring-controller)</h2>
+    <h1 class="title">Simple Pages using plain JTE files</h1>
+    <h2 class="subtitle">For basic usecases. Needs a spring-controller.</h2>
     <h6 class="subtitle"></h6>
 
     <div class="fixed-grid">
@@ -10,13 +10,14 @@
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_URL,
             title = @`Basic JTE Page`,
+            subtitle = @`made using a JTE template`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_INCL_URL,
             title = @`Basic JTE Page`,
-            subtitle = @`using a JTE-component`,
+            subtitle = @`using a JTE component`,
             content = @`Demo...`
             )
 
