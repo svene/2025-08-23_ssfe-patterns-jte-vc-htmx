@@ -16,7 +16,7 @@ public class ApplicationPageController {
 <strong>src/main/java/jte/apppagepasscontent.jte:</strong>
 <pre><code>&lt;h1&gt;Application Page&lt;/h1&gt;
 
-&#64;template.jte.components.helloworldcontent( // &lt;lt;=== include the JTE partial
+&#64;template.jte.components.helloworldcontent( // &lt;lt;=== include the JTE component
     greetingText = &#64;` // &lt;=== include HTML content
     How are you?&lt;br&gt;
     Hopefully &lt;strong>very well&lt;/strong&gt;.&lt;br&gt;

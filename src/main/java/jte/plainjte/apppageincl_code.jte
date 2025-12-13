@@ -16,7 +16,7 @@ public class ApplicationPageController {
     <hr>
     <strong>src/main/java/jte/app.jte:</strong>
     <pre><code>&lt;h1&gt;Application Page&lt;/h1&gt;
-&#64;template.jte.components.helloworld() // &lt;--- include the JTE partial
+&#64;template.jte.components.helloworld() // &lt;--- include the JTE component
 </code></pre>
     <hr>
     <strong>src/main/java/jte/helloworld.jte:</strong>

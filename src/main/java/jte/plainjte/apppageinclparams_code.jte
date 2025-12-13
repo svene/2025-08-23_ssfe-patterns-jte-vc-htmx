@@ -19,7 +19,7 @@ public class ApplicationPageController {
     <pre><code>&#64;param String greetee  // &lt;=== from model, passed by controller
 &lt;h1&gt;Application Page&lt;/h1&gt;
 
-&#64;template.jte.components.helloworldparams( // &lt;=== include the JTE partial
+&#64;template.jte.components.helloworldparams( // &lt;=== include the JTE component
   greeting = "Hello", // &lt;=== pass literal parameter to template
   greetee = greetee // &lt;=== pass parameter coming from model to template
 )
