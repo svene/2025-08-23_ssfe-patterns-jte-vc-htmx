@@ -16,18 +16,23 @@
             @template.jte.maincard(
             url = ContentPage.URL,
             title = @`Content Page`,
+            recommendation = @`Recommended for most use cases`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = ContentPageWithParam.URL,
-            title = @`Content Page with Param`,
+            title = @`Content Page`,
+            subtitle = @`taking a parameter`,
+            recommendation = @`when the page itself needs a parameter`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = CustomPageWithParam.URL,
-            title = @`Custom Page with Param`,
+            title = @`Custom Page`,
+            subtitle = @`taking a parameter`,
+            recommendation = @`when the opinionated content page does not fit`,
             content = @`Demo...`
             )
 
