@@ -1,6 +1,7 @@
 @import org.svenehrke.demo.web.simplevcdemos.page.Page
 @import org.svenehrke.demo.web.simplevcdemos.apppageincl.PageWithComponent
 @import org.svenehrke.demo.web.simplevcdemos.pagewithcontentparamscomponent.PageWithContentParamsComponent
+@import org.svenehrke.demo.web.simplevcdemos.pagewithnestedcomponents.PageWithNestedComponents
 @import org.svenehrke.demo.web.simplevcdemos.pagewithparamscomponent.PageWithParamsComponent
 
 <section class="section">
@@ -37,6 +38,14 @@
             title = @`Content parameter`,
             subtitle = @`passed from page to component`,
             recommendation = @`When html needs to be passed into component`,
+            content = @`Demo...`
+            )
+
+            @template.jte.maincard(
+            url = PageWithNestedComponents.URL,
+            title = @`Nested components`,
+            subtitle = @`or: template in template`,
+            recommendation = @`if you need components in content-parameters`,
             content = @`Demo...`
             )
 
