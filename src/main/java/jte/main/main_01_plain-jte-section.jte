@@ -1,38 +1,46 @@
 @import org.svenehrke.demo.web.PlainJTEController
 
 <section class="section">
-    <h1 class="title">Plain JTE Template Files</h1>
-    <h2 class="subtitle">Application Pages via controller</h2>
+    <h1 class="title">Plain JTE Page Templates</h1>
+    <h2 class="subtitle">for basic usecases (needs a spring-controller)</h2>
+    <h6 class="subtitle"></h6>
 
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_URL,
-            title = @`Basic`,
+            title = @`Basic JTE Page`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_INCL_URL,
-            title = @`With component`,
+            title = @`Basic JTE Page`,
+            subtitle = @`using a JTE-component`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_INCL_PARAMS_URL,
-            title = @`Component<br>with parameters`,
+            title = @`Page and Component`,
+            subtitle = @`with parameters`,
+            recommendation = @`When page and/or component need parameters`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_PASS_CONTENT_URL,
-            title = @`Component<br>with content parameter`,
+            title = @`Content parameter`,
+            subtitle = @`passed from page to component`,
+            recommendation = @`When html needs to be passed into component`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
             url = PlainJTEController.APP_PAGE_NESTED_URL,
-            title = @`Component<br>with nested templates`,
+            title = @`Nested components`,
+            subtitle = @`or: template in template`,
+            recommendation = @`if you need components in content-parameters`,
             content = @`Demo...`
             )
 
