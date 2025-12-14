@@ -1,8 +1,8 @@
-@import org.svenehrke.demo.web.simplevcdemos.page.Page
-@import org.svenehrke.demo.web.simplevcdemos.apppageincl.PageWithComponent
-@import org.svenehrke.demo.web.simplevcdemos.pagewithcontentparamscomponent.PageWithContentParamsComponent
-@import org.svenehrke.demo.web.simplevcdemos.pagewithnestedcomponents.PageWithNestedComponents
-@import org.svenehrke.demo.web.simplevcdemos.pagewithparamscomponent.PageWithParamsComponent
+@import org.svenehrke.demo.web.simplevcdemos.page01.Page
+@import org.svenehrke.demo.web.simplevcdemos.page02withcomponent.PageWithComponent
+@import org.svenehrke.demo.web.simplevcdemos.page03withparamscomponent.PageWithParamsComponent
+@import org.svenehrke.demo.web.simplevcdemos.page04withcontentparamscomponent.PageWithContentParamsComponent
+@import org.svenehrke.demo.web.simplevcdemos.page05withnestedcomponents.PageWithNestedComponents
 
 <section class="section">
     <h1 class="title">Simple Pages using View Components</h1>

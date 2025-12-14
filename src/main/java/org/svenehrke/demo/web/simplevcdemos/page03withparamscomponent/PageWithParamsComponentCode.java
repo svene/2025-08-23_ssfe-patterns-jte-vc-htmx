@@ -1,10 +1,10 @@
-package org.svenehrke.demo.web.simplevcdemos.page;
+package org.svenehrke.demo.web.simplevcdemos.page03withparamscomponent;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 
 @ViewComponent
-public class PageCode {
+public class PageWithParamsComponentCode {
 	public record Ctx() implements ViewContext {
 	}
 }

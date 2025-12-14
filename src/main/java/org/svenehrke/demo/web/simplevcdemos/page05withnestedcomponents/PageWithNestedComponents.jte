@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.simplevcdemos.pagewithnestedcomponents.HelloWorldNestedContent
-@import org.svenehrke.demo.web.simplevcdemos.pagewithnestedcomponents.PageWithNestedComponentsCode
+@import org.svenehrke.demo.web.simplevcdemos.page05withnestedcomponents.HelloWorldNestedContent
+@import org.svenehrke.demo.web.simplevcdemos.page05withnestedcomponents.PageWithNestedComponentsCode
 <!DOCTYPE html>
 
 <html lang="en">

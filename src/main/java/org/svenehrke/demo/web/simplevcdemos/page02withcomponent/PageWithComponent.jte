@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.simplevcdemos.apppageincl.HelloWorld
-@import org.svenehrke.demo.web.simplevcdemos.apppageincl.PageWithComponentCode
+@import org.svenehrke.demo.web.simplevcdemos.page02withcomponent.HelloWorld
+@import org.svenehrke.demo.web.simplevcdemos.page02withcomponent.PageWithComponentCode
 
 <!DOCTYPE html>
 <html lang="en">

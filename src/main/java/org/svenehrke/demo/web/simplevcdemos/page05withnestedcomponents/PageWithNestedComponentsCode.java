@@ -1,17 +1,10 @@
-package org.svenehrke.demo.web.simplevcdemos.apppageincl;
-
+package org.svenehrke.demo.web.simplevcdemos.page05withnestedcomponents;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 
 @ViewComponent
-public class HelloWorld {
-
+public class PageWithNestedComponentsCode {
 	public record Ctx() implements ViewContext {
-	}
-
-	public static Ctx ctx(
-	) {
-		return new Ctx();
 	}
 }

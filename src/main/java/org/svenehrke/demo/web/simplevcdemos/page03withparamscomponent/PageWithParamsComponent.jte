@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.simplevcdemos.pagewithparamscomponent.HelloWorldParams
-@import org.svenehrke.demo.web.simplevcdemos.pagewithparamscomponent.PageWithParamsComponentCode
+@import org.svenehrke.demo.web.simplevcdemos.page03withparamscomponent.HelloWorldParams
+@import org.svenehrke.demo.web.simplevcdemos.page03withparamscomponent.PageWithParamsComponentCode
 
 <!DOCTYPE html>
 <html lang="en">

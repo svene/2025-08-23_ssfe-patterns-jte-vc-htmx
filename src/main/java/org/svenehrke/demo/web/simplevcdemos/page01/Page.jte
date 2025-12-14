@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.simplevcdemos.page.PageCode
+@import org.svenehrke.demo.web.simplevcdemos.page01.PageCode
 <!DOCTYPE html>
 
 <html lang="en">
