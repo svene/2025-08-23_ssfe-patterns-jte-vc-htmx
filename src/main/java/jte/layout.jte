@@ -1,5 +1,4 @@
 @import gg.jte.Content
-@import org.svenehrke.demo.web.pages.InsertionPageComponent
 @import org.svenehrke.demo.web.pages.ParentPageComponent
 @import org.svenehrke.demo.web.pages.ComponentForwarderPageComponent
 
@@ -28,7 +27,6 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item ${ ("insertion".equals(selectedMenu)) ? "is-selected" : ""} " href="${InsertionPageComponent.URL}">Insertion Pattern</a>
                 <a class="navbar-item ${ ("parentchild".equals(selectedMenu)) ? "is-selected" : ""} " href="${ParentPageComponent.URL}">Parent-Child Pattern</a>
                 <a class="navbar-item ${ ("forwarder".equals(selectedMenu)) ? "is-selected" : ""} " href="${ComponentForwarderPageComponent.URL}">Component-Forwarder Pattern</a>
             </div>
