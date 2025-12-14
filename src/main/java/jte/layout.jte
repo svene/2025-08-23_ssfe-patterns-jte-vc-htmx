@@ -1,5 +1,4 @@
 @import gg.jte.Content
-@import org.svenehrke.demo.web.pages.TemplateInfoPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
 @import org.svenehrke.demo.web.pages.InsertionPageComponent
 @import org.svenehrke.demo.web.pages.ParentPageComponent
@@ -30,7 +29,6 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item ${ ("info".equals(selectedMenu)) ? "is-selected" : ""} " href="${TemplateInfoPageComponent.URL}">Info</a>
                 <a class="navbar-item ${ ("injection".equals(selectedMenu)) ? "is-selected" : ""} " href="${InjectionPageComponent.URL}">Injection Pattern</a>
                 <a class="navbar-item ${ ("insertion".equals(selectedMenu)) ? "is-selected" : ""} " href="${InsertionPageComponent.URL}">Insertion Pattern</a>
                 <a class="navbar-item ${ ("parentchild".equals(selectedMenu)) ? "is-selected" : ""} " href="${ParentPageComponent.URL}">Parent-Child Pattern</a>
