@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 
 @ViewComponent
 @Controller
-public class ChildComponent {
+public class Child {
 
 	public static final String URL = "/ui/components/child";
 

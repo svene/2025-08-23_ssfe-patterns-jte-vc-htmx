@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
 @Controller
-public class ParentPageComponent {
+public class ParentPage {
 
 	public static final String URL = "/ui/pages/parent";
 

@@ -1,7 +1,7 @@
-@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentComponent
-@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentPageComponent
+@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.Parent
+@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentPage
 
-@param ParentPageComponent.Ctx ctx
+@param ParentPage.Ctx ctx
 
 @template.jte.pagetemplate(
 content = @`
@@ -25,15 +25,13 @@ public record Ctx(String greeting) implements ViewContext {
 
 // Child-Component:
 child: &#36;{ctx.slot1()}
-
 </pre>
-
-        </div>
+</div>
 
         <div class="area-border p-1">
-            <h3>Parent-Page-Component</h3>
+            <h3>Parent-Page</h3>
             <div class="area-border p-1">
-                ${new ParentComponent.Ctx("hello")}
+                ${new Parent.Ctx("hello")}
             </div>
         </div>
     </div>

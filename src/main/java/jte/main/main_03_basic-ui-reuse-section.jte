@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentPageComponent
+@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentPage
 
 <section class="section">
     <h1 class="title">UI Patterns</h1>
@@ -8,7 +8,7 @@
         <div class="grid">
 
             @template.jte.maincard(
-            url = ParentPageComponent.URL,
+            url = ParentPage.URL,
             title = @`Parent Child`,
             subtitle = @``,
             content = @`Demo...`

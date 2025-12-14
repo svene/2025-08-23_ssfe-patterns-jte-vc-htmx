@@ -7,13 +7,13 @@ import org.springframework.stereotype.Controller;
 
 @ViewComponent
 @Controller
-public class ParentComponent {
+public class Parent {
 
 	public static final String URL = "/ui/components/parent";
 
 	public record Ctx(String greeting) implements ViewContext {
-		public ChildComponent.Ctx childCtx(Content slot) {
-			return new ChildComponent.Ctx(slot);
+		public Child.Ctx childCtx(Content slot) {
+			return new Child.Ctx(slot);
 		}
 
 	}
