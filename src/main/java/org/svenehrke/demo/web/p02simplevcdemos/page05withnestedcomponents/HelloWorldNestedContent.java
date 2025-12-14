@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.simplevcdemos.page05withnestedcomponents;
+package org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;

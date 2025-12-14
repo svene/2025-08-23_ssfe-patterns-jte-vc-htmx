@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.simplevcdemos.page04withcontentparamscomponent;
+package org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @ViewComponent
 @Controller
-public class PageWithContentParamsComponent {
-	public static final String URL = "/ui/demos/simplevc/pagewithcontentparamscomponent";
+public class PageWithNestedComponents {
+	public static final String URL = "/ui/demos/simplevc/pagewithnestedcomponents";
 	public record Ctx() implements ViewContext {
 	}
 	@GetMapping(URL)

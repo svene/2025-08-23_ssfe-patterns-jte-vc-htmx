@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.PlainJTEController
+@import org.svenehrke.demo.web.p01plainjte.PlainJTEController
 
 <section class="section">
     <h1 class="title">Simple Pages using plain JTE files</h1>

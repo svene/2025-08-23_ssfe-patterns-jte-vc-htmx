@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web;
+package org.svenehrke.demo.web.p01plainjte;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

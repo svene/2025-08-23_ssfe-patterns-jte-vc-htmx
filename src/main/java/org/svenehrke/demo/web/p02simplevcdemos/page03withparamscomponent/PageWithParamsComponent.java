@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.simplevcdemos.page01;
+package org.svenehrke.demo.web.p02simplevcdemos.page03withparamscomponent;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @ViewComponent
 @Controller
-public class Page {
+public class PageWithParamsComponent {
 
-	public static final String URL = "/ui/demos/simplevc/page";
+	public static final String URL = "/ui/demos/simplevc/pagewithparamscomponent";
 
 	public record Ctx() implements ViewContext {
 	}
