@@ -2,7 +2,6 @@
 @import org.svenehrke.demo.web.pages.p02contentpagewithparam.ContentPageWithParam
 @import org.svenehrke.demo.web.pages.p03custompagewithparam.CustomPageWithParam
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
-@import org.svenehrke.demo.web.pages.InjectionPageComponent
 @import org.svenehrke.demo.web.pages.p04mpa.MpaPage1
 
 <section class="section">
@@ -42,12 +41,6 @@
             title = @`MPA Example`,
             subtitle = @`with menu`,
             content = @`Demo...`
-            )
-
-            @template.jte.maincard(
-            url = InjectionPageComponent.URL,
-            title = @`Injection Pattern`,
-            content = @`Recommended for most use cases`
             )
 
             @template.jte.maincard(
