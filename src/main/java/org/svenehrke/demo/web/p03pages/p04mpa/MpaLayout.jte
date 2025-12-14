@@ -1,4 +1,3 @@
-@import org.svenehrke.demo.web.p03pages.ParentPageComponent
 @import org.svenehrke.demo.web.p03pages.ComponentForwarderPageComponent
 @import org.svenehrke.demo.web.p03pages.p04mpa.MpaLayout
 @import org.svenehrke.demo.web.p03pages.p04mpa.MpaPage1
@@ -30,7 +29,6 @@
             <div class="navbar-start">
                 <a class="navbar-item ${ ("page1".equals(ctx.selectedMenu())) ? "is-selected" : ""} " href="${MpaPage1.URL}">Page 1</a>
                 <a class="navbar-item ${ ("page2".equals(ctx.selectedMenu())) ? "is-selected" : ""} " href="${MpaPage2.URL}">Page 2</a>
-                <a class="navbar-item ${ ("parentchild".equals(ctx.selectedMenu())) ? "is-selected" : ""} " href="${ParentPageComponent.URL}">Parent-Child Pattern</a>
                 <a class="navbar-item ${ ("forwarder".equals(ctx.selectedMenu())) ? "is-selected" : ""} " href="${ComponentForwarderPageComponent.URL}">Component-Forwarder Pattern</a>
             </div>
         </div>

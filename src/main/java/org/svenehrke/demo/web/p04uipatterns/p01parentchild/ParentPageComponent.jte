@@ -1,10 +1,9 @@
-@import org.svenehrke.demo.web.components.parentchild.ParentComponent
-@import org.svenehrke.demo.web.p03pages.ParentPageComponent
+@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentComponent
+@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentPageComponent
 
 @param ParentPageComponent.Ctx ctx
 
-@template.jte.layout(
-selectedMenu = "parentchild",
+@template.jte.pagetemplate(
 content = @`
     <div class="is-flex is-justify-content-space-around p-1">
         <div>

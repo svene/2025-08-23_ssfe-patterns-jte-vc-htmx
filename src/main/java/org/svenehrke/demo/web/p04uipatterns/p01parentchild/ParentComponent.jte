@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.components.parentchild.ParentComponent
+@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentComponent
 
 @param ParentComponent.Ctx ctx
 

@@ -1,5 +1,4 @@
 @import gg.jte.Content
-@import org.svenehrke.demo.web.p03pages.ParentPageComponent
 @import org.svenehrke.demo.web.p03pages.ComponentForwarderPageComponent
 
 @param String selectedMenu = "info"
@@ -27,7 +26,6 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item ${ ("parentchild".equals(selectedMenu)) ? "is-selected" : ""} " href="${ParentPageComponent.URL}">Parent-Child Pattern</a>
                 <a class="navbar-item ${ ("forwarder".equals(selectedMenu)) ? "is-selected" : ""} " href="${ComponentForwarderPageComponent.URL}">Component-Forwarder Pattern</a>
             </div>
         </div>
