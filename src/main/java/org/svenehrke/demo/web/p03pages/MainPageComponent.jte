@@ -20,8 +20,8 @@
 
     @template.jte.main.main_01_plain-jte-section()
     @template.jte.main.main_02_simple-vc-section()
-    @template.jte.main.main_03_basic-ui-reuse-section()
     @template.jte.main.main_04_applicationpage-section()
+    @template.jte.main.main_03_basic-ui-reuse-section()
     @template.jte.main.main_05_experiments-section()
 
 </div>

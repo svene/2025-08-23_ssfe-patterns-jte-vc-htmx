@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.pages.p02contentpagewithparam.ContentPageWithParam
-@import org.svenehrke.demo.web.pages.p02contentpagewithparam.ContentPageWithParamCode
+@import org.svenehrke.demo.web.p03pages.p02contentpagewithparam.ContentPageWithParam
+@import org.svenehrke.demo.web.p03pages.p02contentpagewithparam.ContentPageWithParamCode
 
 @param ContentPageWithParam.Ctx ctx
 

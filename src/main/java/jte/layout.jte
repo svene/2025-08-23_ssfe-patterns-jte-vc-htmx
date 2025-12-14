@@ -1,6 +1,6 @@
 @import gg.jte.Content
-@import org.svenehrke.demo.web.pages.ParentPageComponent
-@import org.svenehrke.demo.web.pages.ComponentForwarderPageComponent
+@import org.svenehrke.demo.web.p03pages.ParentPageComponent
+@import org.svenehrke.demo.web.p03pages.ComponentForwarderPageComponent
 
 @param String selectedMenu = "info"
 @param Content content

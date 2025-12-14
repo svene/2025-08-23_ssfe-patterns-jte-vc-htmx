@@ -1,5 +1,5 @@
 @import org.svenehrke.demo.web.components.parentchild.ParentComponent
-@import org.svenehrke.demo.web.pages.ParentPageComponent
+@import org.svenehrke.demo.web.p03pages.ParentPageComponent
 
 @param ParentPageComponent.Ctx ctx
 

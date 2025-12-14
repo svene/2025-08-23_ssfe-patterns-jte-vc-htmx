@@ -1,7 +1,7 @@
-@import org.svenehrke.demo.web.pages.p01contentpage.ContentPage
-@import org.svenehrke.demo.web.pages.p02contentpagewithparam.ContentPageWithParam
-@import org.svenehrke.demo.web.pages.p03custompagewithparam.CustomPageWithParam
-@import org.svenehrke.demo.web.pages.p04mpa.MpaPage1
+@import org.svenehrke.demo.web.p03pages.p01contentpage.ContentPage
+@import org.svenehrke.demo.web.p03pages.p02contentpagewithparam.ContentPageWithParam
+@import org.svenehrke.demo.web.p03pages.p03custompagewithparam.CustomPageWithParam
+@import org.svenehrke.demo.web.p03pages.p04mpa.MpaPage1
 
 <section class="section">
     <h1 class="title">Page Patterns</h1>

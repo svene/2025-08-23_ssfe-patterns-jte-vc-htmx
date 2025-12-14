@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.pages.p02contentpagewithparam;
+package org.svenehrke.demo.web.p03pages.p03custompagewithparam;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
 @Controller
-public class ContentPageWithParam {
-	public static final String URL = "/ui/pages/contentpagewithparam";
+public class CustomPageWithParam {
+	public static final String URL = "/ui/pages/custompagewithparam";
 
-	public record Ctx(String greeting) implements ViewContext {}
+	public record Ctx(String greeting) implements ViewContext {
+	}
 
 	@GetMapping(URL)
 	public Ctx ctx(

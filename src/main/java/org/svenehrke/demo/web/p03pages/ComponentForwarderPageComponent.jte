@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.pages.ComponentForwarderPageComponent
+@import org.svenehrke.demo.web.p03pages.ComponentForwarderPageComponent
 @import org.svenehrke.demo.web.components.componentforwarder.FirstComponent
 
 @param ComponentForwarderPageComponent.Ctx ctx

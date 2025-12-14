@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.pages.p04mpa;
+package org.svenehrke.demo.web.p03pages.p04mpa;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;

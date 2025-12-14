@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.pages;
+package org.svenehrke.demo.web.p03pages;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
@@ -9,16 +9,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
 @Controller
-public class ComponentForwarderPageComponent {
+public class ParentPageComponent {
 
-	public static final String URL = "/ui/pages/componentforwarder";
+	public static final String URL = "/ui/pages/parent";
 
 	public record Ctx(String greeting) implements ViewContext {
 	}
 
 	@GetMapping(URL)
 	public Ctx ctx(
-		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Component-Forwarder-Page") String greeting
+		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Parent-Page") String greeting
 	) {
 		return new Ctx(greeting);
 	}

@@ -24,7 +24,7 @@ include::src/main/java/org/svenehrke/demo/web/components/parentchild/ParentCompo
 [source,html]
 .InjectionPageComponent.jte
 ----
-@import org.svenehrke.demo.web.pages.InjectionPageComponent
+@import org.svenehrke.demo.web.p03pages.InjectionPageComponent
 
 @param InjectionPageComponent.Ctx ctx
 
@@ -41,8 +41,8 @@ content = @`
 .layout.jte
 ----
 @import gg.jte.Content
-@import org.svenehrke.demo.web.pages.InjectionPageComponent
-@import org.svenehrke.demo.web.pages.InclusionPageComponent
+@import org.svenehrke.demo.web.p03pages.InjectionPageComponent
+@import org.svenehrke.demo.web.p03pages.InclusionPageComponent
 
 @param Content content
 
@@ -72,7 +72,7 @@ content = @`
 [source,html]
 .Page2Component.jte
 ----
-@import org.svenehrke.demo.web.pages.InclusionPageComponent
+@import org.svenehrke.demo.web.p03pages.InclusionPageComponent
 
 @param Page2Component.Ctx ctx
 
@@ -109,8 +109,8 @@ content = @`
 [source,html]
 .pagenavigation.jte
 ----
-@import org.svenehrke.demo.web.pages.InjectionPageComponent
-@import org.svenehrke.demo.web.pages.InclusionPageComponent
+@import org.svenehrke.demo.web.p03pages.InjectionPageComponent
+@import org.svenehrke.demo.web.p03pages.InclusionPageComponent
 
 <nav>
     <a href="${InjectionPageComponent.URL}">Page 1</a>
@@ -204,7 +204,7 @@ class ParentPageComponent {
 [source,html]
 .ParentPageComponent.jte, Note that nested contents is possible in JTE
 ----
-@import org.svenehrke.demo.web.pages.ParentPageComponent
+@import org.svenehrke.demo.web.p03pages.ParentPageComponent
 
 @param ParentPageComponent.Ctx ctx
 

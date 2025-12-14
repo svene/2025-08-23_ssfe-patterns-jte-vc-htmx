@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.pages.p01contentpage;
+package org.svenehrke.demo.web.p03pages.p01contentpage;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;

@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.pages.p04mpa.MpaPage2
-@import org.svenehrke.demo.web.pages.p04mpa.MpaLayout
+@import org.svenehrke.demo.web.p03pages.p04mpa.MpaPage2
+@import org.svenehrke.demo.web.p03pages.p04mpa.MpaLayout
 
 @param MpaPage2.Ctx ctx
 

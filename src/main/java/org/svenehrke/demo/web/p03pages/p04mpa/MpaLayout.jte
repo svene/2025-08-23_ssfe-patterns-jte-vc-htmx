@@ -1,8 +1,8 @@
-@import org.svenehrke.demo.web.pages.ParentPageComponent
-@import org.svenehrke.demo.web.pages.ComponentForwarderPageComponent
-@import org.svenehrke.demo.web.pages.p04mpa.MpaLayout
-@import org.svenehrke.demo.web.pages.p04mpa.MpaPage1
-@import org.svenehrke.demo.web.pages.p04mpa.MpaPage2
+@import org.svenehrke.demo.web.p03pages.ParentPageComponent
+@import org.svenehrke.demo.web.p03pages.ComponentForwarderPageComponent
+@import org.svenehrke.demo.web.p03pages.p04mpa.MpaLayout
+@import org.svenehrke.demo.web.p03pages.p04mpa.MpaPage1
+@import org.svenehrke.demo.web.p03pages.p04mpa.MpaPage2
 
 @param MpaLayout.Ctx ctx
 
