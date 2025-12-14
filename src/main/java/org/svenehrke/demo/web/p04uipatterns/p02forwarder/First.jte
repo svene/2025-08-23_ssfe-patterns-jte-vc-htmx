@@ -2,4 +2,4 @@
 
 @param First.Ctx ctx
 
-<div>First-Component: ${ctx.greeting()}</div>
+<div>First: ${ctx.greeting()}</div>

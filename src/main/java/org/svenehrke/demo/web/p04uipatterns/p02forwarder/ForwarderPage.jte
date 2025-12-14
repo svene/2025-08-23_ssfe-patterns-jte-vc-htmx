@@ -5,7 +5,7 @@
 
 @template.jte.pagetemplate(
 content = @`
-<h3>ComponentForwarder-Page</h3>
+<h3>Forwarder-Page</h3>
 
     <div>${new First().ctx("hello")}</div>
     <div>${new First().ctx("hello with forward")}</div>

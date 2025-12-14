@@ -2,4 +2,4 @@
 
 @param Second.Ctx ctx
 
-<div>SecondComponent: ${ctx.greeting()}</div>
+<div>Second: ${ctx.greeting()}</div>
