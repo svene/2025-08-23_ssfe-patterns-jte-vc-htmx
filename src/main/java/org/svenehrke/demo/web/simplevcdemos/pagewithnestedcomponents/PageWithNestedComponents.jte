@@ -1,4 +1,5 @@
 @import org.svenehrke.demo.web.simplevcdemos.pagewithnestedcomponents.HelloWorldNestedContent
+@import org.svenehrke.demo.web.simplevcdemos.pagewithnestedcomponents.PageWithNestedComponentsCode
 <!DOCTYPE html>
 
 <html lang="en">
@@ -19,6 +20,7 @@
         `)}
         <p>after nested content</p>
     `)}
+    ${new PageWithNestedComponentsCode.Ctx()}
 </div>
 </body>
 </html>
