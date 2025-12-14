@@ -3,11 +3,12 @@
 @import org.svenehrke.demo.web.pages.p03custompagewithparam.CustomPageWithParam
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
+@import org.svenehrke.demo.web.pages.p04mpa.MpaPage1
 
 <section class="section">
-    <h1 class="title">Application/Page Patterns</h1>
+    <h1 class="title">Page Patterns</h1>
     <h2 class="subtitle">
-        Patterns to build applications with one or multiple pages
+        Patterns to build pages for Multi Page Applications (MPAs)<br>or just a single page
     </h2>
 
     <div class="fixed-grid">
@@ -33,6 +34,13 @@
             title = @`Custom Page`,
             subtitle = @`taking a parameter`,
             recommendation = @`when the opinionated content page does not fit`,
+            content = @`Demo...`
+            )
+
+            @template.jte.maincard(
+            url = MpaPage1.URL,
+            title = @`MPA Example`,
+            subtitle = @`with menu`,
             content = @`Demo...`
             )
 

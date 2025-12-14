@@ -1,4 +1,3 @@
-<hr>
 <div>
 <strong>src/main/java/.../CustomPageWithParamCode.java:</strong>
 <pre><code>@ViewComponent
