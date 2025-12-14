@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.pages.pocs.wcswap.WCSwapPageComponent
+@import org.svenehrke.demo.web.pocs.wcswap.WCSwapPageComponent
 
 <section class="section">
     <h1 class="title">Experiments</h1>

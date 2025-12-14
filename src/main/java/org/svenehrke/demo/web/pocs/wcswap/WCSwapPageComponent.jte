@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.pages.pocs.wcswap.wcwrapper1.WCWrapper1Component
+@import org.svenehrke.demo.web.pocs.wcswap.wcwrapper1.WCWrapper1Component
 
 @template.jte.simplepagelayout(
 xhead = @`

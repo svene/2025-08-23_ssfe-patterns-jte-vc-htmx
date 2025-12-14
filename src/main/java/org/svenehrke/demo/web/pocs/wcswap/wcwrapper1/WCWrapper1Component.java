@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.pages.pocs.wcswap.wcwrapper1;
+package org.svenehrke.demo.web.pocs.wcswap.wcwrapper1;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
