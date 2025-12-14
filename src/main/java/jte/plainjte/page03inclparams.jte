@@ -20,7 +20,7 @@ Second parameter coming in from controller through Model and passed to included 
   greetee = greetee
 )
 
-@template.jte.plainjte.apppageinclparams_code()
+@template.jte.plainjte.page03inclparams_code()
 
 </div>
 </body>

@@ -7,37 +7,37 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PlainJTEController {
 
-	public static final String APP_PAGE_URL = "/apppage";
-	public static final String APP_PAGE_INCL_URL = "/apppageincl";
-	public static final String APP_PAGE_INCL_PARAMS_URL = "/apppageinclparams";
-	public static final String APP_PAGE_PASS_CONTENT_URL = "/apppagepasscontent";
-	public static final String APP_PAGE_NESTED_URL = "/apppagenested";
+	public static final String PAGE_01_URL = "/page01";
+	public static final String PAGE_02_INCL_URL = "/page02incl";
+	public static final String PAGE_03_INCL_PARAMS_URL = "/page03inclparams";
+	public static final String PAGE_04_PASS_CONTENT_URL = "/page04passcontent";
+	public static final String PAGE_05_NESTED_URL = "/page05nested";
 
-	@GetMapping(APP_PAGE_URL)
+	@GetMapping(PAGE_01_URL)
 	public String app() {
-		return "jte/plainjte/app";
+		return "jte/plainjte/page01";
 	}
 
-	@GetMapping(APP_PAGE_INCL_URL)
+	@GetMapping(PAGE_02_INCL_URL)
 	public String appPageIncl() {
-		return "jte/plainjte/apppageincl";
+		return "jte/plainjte/page02incl";
 	}
 
-	@GetMapping(APP_PAGE_INCL_PARAMS_URL)
+	@GetMapping(PAGE_03_INCL_PARAMS_URL)
 	public String appPageInclParams(Model model) {
 		var firstName = "Bart";
 		model.addAttribute("greetee", firstName);
-		return "jte/plainjte/apppageinclparams";
+		return "jte/plainjte/page03inclparams";
 	}
 
-	@GetMapping(APP_PAGE_PASS_CONTENT_URL)
+	@GetMapping(PAGE_04_PASS_CONTENT_URL)
 	public String appPagePassContent() {
-		return "jte/plainjte/apppagepasscontent";
+		return "jte/plainjte/page04passcontent";
 	}
 
-	@GetMapping(APP_PAGE_NESTED_URL)
+	@GetMapping(PAGE_05_NESTED_URL)
 	public String appPageNested() {
-		return "jte/plainjte/apppagenested";
+		return "jte/plainjte/page05nested";
 	}
 
 }

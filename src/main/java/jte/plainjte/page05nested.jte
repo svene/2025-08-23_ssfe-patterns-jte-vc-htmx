@@ -19,7 +19,7 @@
     `)
     <p>after nested content</p>
   `)
-@template.jte.plainjte.apppagenested_code()
+@template.jte.plainjte.page05nested_code()
 
 </div>
 

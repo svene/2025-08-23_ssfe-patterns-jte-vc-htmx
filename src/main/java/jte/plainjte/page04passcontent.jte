@@ -17,7 +17,7 @@
     <p>See you soon!</p>
 `
 )
-@template.jte.plainjte.apppagepasscontent_code()
+@template.jte.plainjte.page04passcontent_code()
 
 </div>
 

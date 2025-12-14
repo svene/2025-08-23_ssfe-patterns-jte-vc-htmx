@@ -8,21 +8,21 @@
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.maincard(
-            url = PlainJTEController.APP_PAGE_URL,
+            url = PlainJTEController.PAGE_01_URL,
             title = @`Basic JTE Page`,
             subtitle = @`made using a JTE template`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
-            url = PlainJTEController.APP_PAGE_INCL_URL,
+            url = PlainJTEController.PAGE_02_INCL_URL,
             title = @`Basic JTE Page`,
             subtitle = @`using a JTE component`,
             content = @`Demo...`
             )
 
             @template.jte.maincard(
-            url = PlainJTEController.APP_PAGE_INCL_PARAMS_URL,
+            url = PlainJTEController.PAGE_03_INCL_PARAMS_URL,
             title = @`Page and Component`,
             subtitle = @`with parameters`,
             recommendation = @`When page and/or component need parameters`,
@@ -30,7 +30,7 @@
             )
 
             @template.jte.maincard(
-            url = PlainJTEController.APP_PAGE_PASS_CONTENT_URL,
+            url = PlainJTEController.PAGE_04_PASS_CONTENT_URL,
             title = @`Content parameter`,
             subtitle = @`passed from page to component`,
             recommendation = @`When html needs to be passed into component`,
@@ -38,7 +38,7 @@
             )
 
             @template.jte.maincard(
-            url = PlainJTEController.APP_PAGE_NESTED_URL,
+            url = PlainJTEController.PAGE_05_NESTED_URL,
             title = @`Nested components`,
             subtitle = @`or: template in template`,
             recommendation = @`if you need components in content-parameters`,
