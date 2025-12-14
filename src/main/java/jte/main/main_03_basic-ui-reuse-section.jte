@@ -1,4 +1,5 @@
 @import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentPage
+@import org.svenehrke.demo.web.p04uipatterns.p02forwarder.ComponentForwarderPageComponent
 
 <section class="section">
     <h1 class="title">UI Patterns</h1>
@@ -10,6 +11,13 @@
             @template.jte.maincard(
             url = ParentPage.URL,
             title = @`Parent Child`,
+            subtitle = @``,
+            content = @`Demo...`
+            )
+
+            @template.jte.maincard(
+            url = ComponentForwarderPageComponent.URL,
+            title = @`Forwarder`,
             subtitle = @``,
             content = @`Demo...`
             )

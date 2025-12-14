@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.components.componentforwarder.SecondComponent
+@import org.svenehrke.demo.web.p04uipatterns.p02forwarder.SecondComponent
 
 @param SecondComponent.Ctx ctx
 
