@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
 @Controller
-public class SecondComponent {
+public class Second {
 
 	public record Ctx(String greeting) implements ViewContext {
 	}
