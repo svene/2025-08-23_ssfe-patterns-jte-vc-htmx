@@ -1,6 +1,6 @@
-@import org.svenehrke.demo.web.pages.contentpage.ContentPage
-@import org.svenehrke.demo.web.pages.contentpagewithparam.ContentPageWithParam
-@import org.svenehrke.demo.web.pages.custompagewithparam.CustomPageWithParam
+@import org.svenehrke.demo.web.pages.p01contentpage.ContentPage
+@import org.svenehrke.demo.web.pages.p02contentpagewithparam.ContentPageWithParam
+@import org.svenehrke.demo.web.pages.p03custompagewithparam.CustomPageWithParam
 @import org.svenehrke.demo.web.pages.InclusionPageComponent
 @import org.svenehrke.demo.web.pages.InjectionPageComponent
 

@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.pages.contentpage.ContentPageCode
+@import org.svenehrke.demo.web.pages.p01contentpage.ContentPageCode
 
 @template.jte.pagetemplate(
 content = @`
