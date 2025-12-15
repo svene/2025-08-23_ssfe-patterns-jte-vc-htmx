@@ -3,7 +3,7 @@
 
 @param ForwarderPage.Ctx ctx
 
-@template.jte.pagetemplate(
+@template.jte.pages.pagetemplate(
 content = @`
 <h3>Forwarder-Page</h3>
 

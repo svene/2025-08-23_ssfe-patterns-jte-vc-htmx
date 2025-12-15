@@ -9,7 +9,7 @@
     <div class="fixed-grid">
         <div class="grid">
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = WCSwapPageComponent.URL,
             title = @`Swap Webcomponent`,
             content = @`Investigate possible rendering issues`

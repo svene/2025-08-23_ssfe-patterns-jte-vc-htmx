@@ -12,14 +12,14 @@
     <div class="fixed-grid">
         <div class="grid">
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = ContentPage.URL,
             title = @`Content Page`,
             recommendation = @`Recommended for most use cases`,
             content = @`Demo...`
             )
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = ContentPageWithParam.URL,
             title = @`Content Page`,
             subtitle = @`taking a parameter`,
@@ -27,7 +27,7 @@
             content = @`Demo...`
             )
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = CustomPageWithParam.URL,
             title = @`Custom Page`,
             subtitle = @`taking a parameter`,
@@ -35,7 +35,7 @@
             content = @`Demo...`
             )
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = MpaPage1.URL,
             title = @`MPA Example`,
             subtitle = @`with menu`,

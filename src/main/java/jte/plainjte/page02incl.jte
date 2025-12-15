@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/demopage.css"/>
+    <link rel="stylesheet" href="/simplepage.css"/>
 </head>
 <body class="page">
 <div class="pagecontent">
@@ -10,7 +10,7 @@
 
 @template.jte.components.helloworld()
 
-   @template.jte.plainjte.page02incl_code()
+@template.jte.plainjte.page02incl_code()
 
 </div>
 </body>

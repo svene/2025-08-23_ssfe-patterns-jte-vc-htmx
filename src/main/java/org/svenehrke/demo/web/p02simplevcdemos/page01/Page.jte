@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/demopage.css"/>
+    <link rel="stylesheet" href="/simplepage.css"/>
 </head>
 
 <body class="page">

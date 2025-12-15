@@ -11,21 +11,21 @@
 
     <div class="fixed-grid">
         <div class="grid">
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = Page.URL,
             title = @`Basic VC Page`,
             subtitle = @`made using a View Component`,
             content = @`Demo...`
             )
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = PageWithComponent.URL,
             title = @`Basic VC Page`,
             subtitle = @`using a VC component`,
             content = @`Demo...`
             )
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = PageWithParamsComponent.URL,
             title = @`Page and Component`,
             subtitle = @`with parameters`,
@@ -33,7 +33,7 @@
             content = @`Demo...`
             )
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = PageWithContentParamsComponent.URL,
             title = @`Content parameter`,
             subtitle = @`passed from page to component`,
@@ -41,7 +41,7 @@
             content = @`Demo...`
             )
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = PageWithNestedComponents.URL,
             title = @`Nested components`,
             subtitle = @`or: template in template`,

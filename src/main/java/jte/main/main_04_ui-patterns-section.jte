@@ -8,14 +8,14 @@
     <div class="fixed-grid">
         <div class="grid">
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = ParentPage.URL,
             title = @`Parent Child`,
             subtitle = @``,
             content = @`Demo...`
             )
 
-            @template.jte.maincard(
+            @template.jte.main.maincard(
             url = ForwarderPage.URL,
             title = @`Forwarder`,
             subtitle = @``,
