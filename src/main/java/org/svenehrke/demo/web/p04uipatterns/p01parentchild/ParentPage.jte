@@ -3,7 +3,7 @@
 
 @param ParentPage.Ctx ctx
 
-@template.jte.pages.pagetemplate(
+@template.jte.pages.bulmapage(
 content = @`
     <div class="is-flex is-justify-content-space-around p-1">
         <div>

@@ -19,7 +19,7 @@ public class ContentPageWithParam {
 
     <strong>src/main/java/.../ContentPageWithParam.jte:</strong>
     <pre><code>&#64;param ContentPageWithParam.Ctx ctx
-&#64;template.jte.pages.pagetemplate(
+&#64;template.jte.pages.bulmapage(
   content = @`
     &lt;h1 class="title"&gt;Content Page with Param says: &#36;{ctx.greeting()}&lt;/h1&gt;
     `
