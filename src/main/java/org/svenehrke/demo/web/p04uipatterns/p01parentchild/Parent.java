@@ -8,15 +8,10 @@ import org.springframework.stereotype.Controller;
 @ViewComponent
 @Controller
 public class Parent {
-
-	public static final String URL = "/ui/components/parent";
-
 	public record Ctx(String greeting) implements ViewContext {
+		// TODO: find good use-case for the following or remove  (for html-partial replacement?) :
 		public Child.Ctx childCtx(Content slot) {
 			return new Child.Ctx(slot);
 		}
-
 	}
-
-
 }

@@ -14,7 +14,7 @@ public class Child {
 
 	public record Ctx(Content slot1)  implements ViewContext {}
 
-	// TODO: fragment retrieval support with URL
+	// TODO: fragment retrieval support with URL (for html-partial replacement?)
 //	@GetMapping(URL)
 //	public Ctx ctx(
 //		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Child-Component") String greeting
