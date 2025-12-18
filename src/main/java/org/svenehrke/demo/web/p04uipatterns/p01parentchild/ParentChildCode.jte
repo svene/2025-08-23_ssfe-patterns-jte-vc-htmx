@@ -2,7 +2,7 @@
     <%-- ParentPage: --%>
     <div class="grid">
         <div> <%-- Left --%>
-            <strong>src/main/java/.../ParentPage.jte:</strong>
+            <strong>ParentPage.jte</strong>
             <pre><code>&#64;template.jte.pages.bulmapage(
   content = @`...&#36;{new Parent.Ctx("hello")}...`
 )
@@ -10,7 +10,7 @@
         </div>
 
         <div> <%-- Right --%>
-            <strong>src/main/java/.../ParentPage.java:</strong>
+            <strong>ParentPage.java</strong>
             <pre><code>&#64;ViewComponent
 &#64;Controller
 public class ParentPage {
@@ -28,13 +28,13 @@ public class ParentPage {
 
         <%-- Parent: --%>
         <div> <%-- Left --%>
-            <strong>src/main/java/.../Parent.jte:</strong>
+            <strong>Parent.jte</strong>
             <pre><code>&#64;param Parent.Ctx ctx
 &#36;{new Child.Ctx(&#64;&grave;slot-content from parent. Greeting: &#36;{ctx.greeting()}&grave;)}
 </code></pre>
         </div>
         <div> <%-- Right --%>
-            <strong>src/main/java/.../Parent.java:</strong>
+            <strong>Parent.java</strong>
             <pre><code>&#64;ViewComponent
 @Controller
 public class Parent {
@@ -45,14 +45,14 @@ public class Parent {
 
         <%-- Child: --%>
         <div> <%-- Left --%>
-            <strong>src/main/java/.../Child.jte:</strong>
+            <strong>Child.jte</strong>
             <pre><code>&#64;param Child.Ctx ctx
 Child: &#36;{ctx.slot1()}
 </code></pre>
         </div>
 
         <div> <%-- Right --%>
-            <strong>src/main/java/.../Child.java:</strong>
+            <strong>Child.java</strong>
             <pre><code>&#64;ViewComponent
 @Controller
 public class Child {
