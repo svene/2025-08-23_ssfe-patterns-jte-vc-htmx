@@ -22,7 +22,8 @@
     @template.jte.main.main_02_simple-vc-section()
     @template.jte.main.main_03_pages-section()
     @template.jte.main.main_04_ui-patterns-section()
-    @template.jte.main.main_05_experiments-section()
+    @template.jte.main.main_05_htmx-patterns-section()
+    @template.jte.main.main_09_experiments-section()
 
 </div>
 

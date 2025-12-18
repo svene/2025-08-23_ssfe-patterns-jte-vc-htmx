@@ -6,7 +6,6 @@ import gg.jte.Content;
 import org.springframework.stereotype.Controller;
 
 @ViewComponent
-@Controller
 public class Parent {
 	public record Ctx(String greeting) implements ViewContext {
 		// TODO: find good use-case for the following or remove  (for html-partial replacement?) :
