@@ -16,7 +16,8 @@ public class CustomPageWithParam {
 
 	@GetMapping(URL)
 	public Ctx ctx(
-		@RequestParam(name = "greeting", required = false, defaultValue = "Hello") String greeting
+		@RequestParam(name = "greeting", required = false, defaultValue = "Hello")
+		String greeting
 	) {
 		return new Ctx(greeting);
 	}
