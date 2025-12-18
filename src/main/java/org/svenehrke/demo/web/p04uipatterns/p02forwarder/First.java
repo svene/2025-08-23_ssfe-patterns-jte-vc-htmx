@@ -12,9 +12,8 @@ public class First {
 	public record Ctx(String greeting) implements ViewContext {
 	}
 
-	public ViewContext ctx( // Note: needs to return general 'ViewContext' type
-		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from First-Component") String greeting
-	) {
+	// Note: needs to return general 'ViewContext' type:
+	public ViewContext ctx(String greeting) {
 		if (greeting.contains("forward")) {
 			// forward:
 			return new Second().ctx(
