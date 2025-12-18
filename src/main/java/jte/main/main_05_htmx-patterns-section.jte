@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentPage
+@import org.svenehrke.demo.web.p05htmxpatterns.p01urlcomponents.UrlComponentPage
 @import org.svenehrke.demo.web.p04uipatterns.p02forwarder.ForwarderPage
 
 <section class="section">
@@ -9,9 +9,9 @@
         <div class="grid">
 
             @template.jte.main.maincard(
-            url = ParentPage.URL,
-            title = @`P1`,
-            subtitle = @``,
+            url = UrlComponentPage.URL,
+            title = @`URL Components`,
+            subtitle = @`include components dynamically by their URL`,
             content = @`Demo...`
             )
 
