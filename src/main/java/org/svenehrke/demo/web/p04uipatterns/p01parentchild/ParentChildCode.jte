@@ -1,66 +1,34 @@
+@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentChildCode
+
 <div class="fixed-grid">
-    <%-- ParentPage: --%>
-    <div class="grid">
-        <div> <%-- Left --%>
-            <strong>ParentPage.jte</strong>
-            <pre><code>&#64;template.jte.pages.bulmapage(
-  content = @`...&#36;{new Parent.Ctx("hello")}...`
-)
-</code></pre>
-        </div>
+ <div class="grid">
 
-        <div> <%-- Right --%>
-            <strong>ParentPage.java</strong>
-            <pre><code>&#64;ViewComponent
-&#64;Controller
-public class ParentPage {
-  public static final String URL = &quot;/ui/pages/parent&quot;;
-  public record Ctx() implements ViewContext { }
+     @template.jte.components.codesnippet(
+     title = "ParentChildPage.jte",
+     codeSnippet = @`${ParentChildCode.PAGE_JTE}`
+     )
+     @template.jte.components.codesnippet(
+     title = "ParentChildPage.java",
+     codeSnippet = @`${ParentChildCode.PAGE_JAVA}`
+     )
 
-  @GetMapping(URL)
-  public Ctx ctx() {
-    return new Ctx();
-  }
-}
-</code></pre>
-    </div>
+     @template.jte.components.codesnippet(
+     title = "Parent.jte",
+     codeSnippet = @`${ParentChildCode.PARENT_JTE}`
+     )
+     @template.jte.components.codesnippet(
+     title = "Parent.java",
+     codeSnippet = @`${ParentChildCode.PARENT_JAVA}`
+     )
 
-
-        <%-- Parent: --%>
-        <div> <%-- Left --%>
-            <strong>Parent.jte</strong>
-            <pre><code>&#64;param Parent.Ctx ctx
-&#36;{new Child.Ctx(&#64;&grave;slot-content from parent. Greeting: &#36;{ctx.greeting()}&grave;)}
-</code></pre>
-        </div>
-        <div> <%-- Right --%>
-            <strong>Parent.java</strong>
-            <pre><code>&#64;ViewComponent
-@Controller
-public class Parent {
-  public record Ctx(String greeting) implements ViewContext {}
-}
-</code></pre>
-        </div>
-
-        <%-- Child: --%>
-        <div> <%-- Left --%>
-            <strong>Child.jte</strong>
-            <pre><code>&#64;param Child.Ctx ctx
-Child: &#36;{ctx.slot1()}
-</code></pre>
-        </div>
-
-        <div> <%-- Right --%>
-            <strong>Child.java</strong>
-            <pre><code>&#64;ViewComponent
-@Controller
-public class Child {
-  public record Ctx(Content slot1) implements ViewContext {}
-}
-</code></pre>
-        </div>
-
+     @template.jte.components.codesnippet(
+     title = "Child.jte",
+     codeSnippet = @`${ParentChildCode.CHILD_JTE}`
+     )
+     @template.jte.components.codesnippet(
+     title = "Child.java",
+     codeSnippet = @`${ParentChildCode.CHILD_JAVA}`
+     )
 
     </div>
 </div>

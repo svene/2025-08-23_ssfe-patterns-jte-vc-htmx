@@ -5,12 +5,11 @@ import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
 @Controller
-public class ParentPage {
-	public static final String URL = "/ui/pages/parent";
+public class ParentChildPage {
+	public static final String URL = "/ui/pages/parentchild";
 	public record Ctx() implements ViewContext { }
 
 	@GetMapping(URL)

@@ -1,19 +1,19 @@
 @import org.svenehrke.demo.web.p03pages.p03custompagewithparam.CustomPageWithParamCode
 
 <div class="fixed-grid">
-    <div class="grid">
+<div class="grid">
 
 <%-- -------------------------------- CustomPageWithParam ------------------------------ --%>
-<div>
-<strong>CustomPageWithParam.jte</strong>
-<pre><code>${CustomPageWithParamCode.JTE}</code></pre>
-</div>
+@template.jte.components.codesnippet(
+title = "CustomPageWithParam.jte",
+codeSnippet = @`${CustomPageWithParamCode.JTE}`
+)
 
-<div>
-<strong>CustomPageWithParam.java</strong>
-<pre><code>${CustomPageWithParamCode.JAVA}</code></pre>
-</div>
+@template.jte.components.codesnippet(
+title = "CustomPageWithParam.java",
+codeSnippet = @`${CustomPageWithParamCode.JAVA}`
+)
 
-    </div>
+</div>
 </div>
 

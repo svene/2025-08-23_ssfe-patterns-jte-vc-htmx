@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentPage
+@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentChildPage
 @import org.svenehrke.demo.web.p04uipatterns.p02forwarder.ForwarderPage
 
 <section class="section">
@@ -9,7 +9,7 @@
         <div class="grid">
 
             @template.jte.main.maincard(
-            url = ParentPage.URL,
+            url = ParentChildPage.URL,
             title = @`Parent Child`,
             subtitle = @``,
             content = @`Demo...`

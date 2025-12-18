@@ -7,6 +7,5 @@ import gg.jte.Content;
 
 @ViewComponent
 public class Child {
-	public static final String URL = "/ui/components/child";
-	public record Ctx(Content slot1)  implements ViewContext {}
+	public record Ctx(Content slot1) implements ViewContext {}
 }
