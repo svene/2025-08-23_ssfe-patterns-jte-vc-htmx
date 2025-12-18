@@ -22,6 +22,4 @@ public class ForwarderPage {
 	) {
 		return new Ctx(greeting);
 	}
-
-
 }
