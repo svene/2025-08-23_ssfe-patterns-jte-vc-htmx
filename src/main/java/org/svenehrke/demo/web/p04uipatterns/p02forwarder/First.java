@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @ViewComponent
-@Controller
 public class First {
 
 	public record Ctx(String greeting) implements ViewContext {
