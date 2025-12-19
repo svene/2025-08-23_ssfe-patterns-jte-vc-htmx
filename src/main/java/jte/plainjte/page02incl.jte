@@ -6,7 +6,7 @@
 </head>
 <body class="page">
 <div class="pagecontent">
-<h1>Application Page</h1>
+<h1>Page with Component</h1>
 
 <!-- Include Component: -->
 @template.jte.components.helloworld()

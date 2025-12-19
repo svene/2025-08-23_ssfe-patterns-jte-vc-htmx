@@ -2,7 +2,7 @@ package jte.plainjte;
 
 public class Page02InclCode {
 	public static String PAGE_JTE = """
-      <h1>Application Page</h1>
+      <h1>Page with Component</h1>
 
       <!-- Include Component: -->
       @template.jte.components.helloworld()
