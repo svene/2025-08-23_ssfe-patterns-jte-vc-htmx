@@ -10,8 +10,7 @@ public class PageWithComponentCode {
 	public static String PAGE_JTE = """
       <h1>Page with Component</h1>
       
-      ${new HelloWorld.Ctx()} <%-- include the View Component (variant 1) --%>
-      ${HelloWorld.ctx()} <%-- include the View Component (variant 2) --%>
+      ${new HelloWorld.Ctx()}
       """;
 
 	public static String HELLO_WORLD_JTE = """
@@ -23,10 +22,10 @@ public class PageWithComponentCode {
       @Controller
       public class PageWithComponent {
         public static final String URL = "/ui/demos/simplevc/pagewithcomponent";
-        public record Ctx() implements ViewContext {} // <=== include the View Component (variant 1)
+        public record Ctx() implements ViewContext {}
 
         @GetMapping(URL)
-        public Ctx ctx() { // <=== include the View Component (variant 2)
+        public Ctx ctx() {
           return new Ctx();
         }
       }

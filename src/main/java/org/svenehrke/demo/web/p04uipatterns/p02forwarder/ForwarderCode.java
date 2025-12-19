@@ -13,8 +13,8 @@ public class ForwarderCode {
       @template.jte.pages.bulmapage(
         content = @`
           <h3>Forwarder-Page</h3>
-          <div>${new First().ctx("hello")}</div>
-          <div>${new First().ctx("hello with forward")}</div>
+          <div>${new First.Ctx("hello")}</div>
+          <div>${new First().ctx("hello with forward")}</div> <%-- usage of context function bc. of logic --%>
       `)
       """;
 

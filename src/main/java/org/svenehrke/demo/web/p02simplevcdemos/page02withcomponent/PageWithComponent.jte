@@ -13,8 +13,7 @@
 <div>
 <h1>Page with Component</h1>
 
-${new HelloWorld.Ctx()} <%-- include the View Component (variant 1) --%> <%-- TODO: make sure this is shown only once --%>
-${HelloWorld.ctx()} <%-- include the View Component (variant 2) --%>
+${new HelloWorld.Ctx()}
 
 ${new PageWithComponentCode.Ctx()}
 

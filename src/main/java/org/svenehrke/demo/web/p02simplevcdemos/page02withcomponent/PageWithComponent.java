@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageWithComponent {
 	public static final String URL = "/ui/demos/simplevc/pagewithcomponent";
-	public record Ctx() implements ViewContext {} // <=== include the View Component (variant 1)
+	public record Ctx() implements ViewContext {}
 
 	@GetMapping(URL)
-	public Ctx ctx() { // <=== include the View Component (variant 2)
+	public Ctx ctx() {
 		return new Ctx();
 	}
 }

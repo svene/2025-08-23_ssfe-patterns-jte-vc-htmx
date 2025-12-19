@@ -7,9 +7,4 @@ import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 @ViewComponent
 public class HelloWorld {
 	public record Ctx() implements ViewContext {}
-
-	// TODO: remove ?
-	public static Ctx ctx() {
-		return new Ctx();
-	}
 }
