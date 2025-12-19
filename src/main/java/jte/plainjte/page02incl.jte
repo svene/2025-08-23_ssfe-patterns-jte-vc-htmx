@@ -8,6 +8,7 @@
 <div class="pagecontent">
 <h1>Application Page</h1>
 
+<!-- Include Component: -->
 @template.jte.components.helloworld()
 
 @template.jte.plainjte.page02incl_code()

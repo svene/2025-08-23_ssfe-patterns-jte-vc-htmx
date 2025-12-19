@@ -1,25 +1,13 @@
+@import jte.plainjte.Page02InclCode
+
 <div class="codeblock">
-
-    <strong>src/main/java/.../ApplicationPageController.java:</strong>
-    <pre><code>&#64;Controller
-public class ApplicationPageController {
-
-	public static final String APP_PAGE_INCL_URL = "/apppageincl";
-
-	&#64;GetMapping(APP_PAGE_INCL_URL)
-	public String appPageIncl() {
-		return "jte/plainjte/apppageincl";
-	}
-}
-
-</code></pre>
+    <strong>page02incl.jte</strong>
+    <pre><code>${Page02InclCode.PAGE_JTE}</code></pre>
     <hr>
-    <strong>src/main/java/jte/app.jte:</strong>
-    <pre><code>&lt;h1&gt;Application Page&lt;/h1&gt;
-&#64;template.jte.components.helloworld() // &lt;--- include the JTE component
-</code></pre>
+    <strong>helloworld.jte</strong>
+    <pre><code>${Page02InclCode.HELLO_WORLD_JTE}</code></pre>
     <hr>
-    <strong>src/main/java/jte/helloworld.jte:</strong>
-    <pre><code>&lt;h3&gt;Hello world!&lt;/h3&gt;
-</code></pre>
+    <strong>PlainJTEController.java</strong>
+    <pre><code>${Page02InclCode.PAGE_JAVA}</code></pre>
 </div>
+
