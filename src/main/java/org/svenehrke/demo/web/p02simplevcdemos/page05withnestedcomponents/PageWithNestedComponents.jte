@@ -9,7 +9,7 @@
 </head>
 
 <body class="page">
-<div class="pagecontent">
+<div>
     <h1>Page with Nested Components</h1>
 
     ${new HelloWorldNestedComponents.Ctx(@`

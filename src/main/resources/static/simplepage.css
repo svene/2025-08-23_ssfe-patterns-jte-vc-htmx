@@ -6,22 +6,20 @@
 	justify-content: space-around;
 }
 
-.pagecontent {
-}
-.coderow {
-	display: flex;
-	gap: 5px
-}
-
-.coderow + .coderow {
-	margin-top: 5px;
+.codearea {
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* 2 equal columns */
+	grid-template-rows: 1fr 1fr;    /* 2 equal rows */
+	gap: 5px; /* spacing between cells */
 }
 
-.codeblock {
-	background-color: white;
-	color: black;
+.codeareacell {
+	background-color: hsl(221, 14%, 14%);
+	color: rgb(171, 177, 191);
+	/*background-color: white;*/
+	/*color: black;*/
 	padding: 5px;
-	width: fit-content;
+	width: auto;
 	border-radius: 5px;
 }
 pre {

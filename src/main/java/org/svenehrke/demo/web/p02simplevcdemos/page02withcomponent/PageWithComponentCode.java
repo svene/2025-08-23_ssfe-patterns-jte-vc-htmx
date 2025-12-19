@@ -8,7 +8,7 @@ public class PageWithComponentCode {
 	public record Ctx() implements ViewContext {}
 
 	public static String PAGE_JTE = """
-      <h1>Application Page</h1>
+      <h1>Page with Component</h1>
       
       ${new HelloWorld.Ctx()} <%-- include the View Component (variant 1) --%>
       ${HelloWorld.ctx()} <%-- include the View Component (variant 2) --%>

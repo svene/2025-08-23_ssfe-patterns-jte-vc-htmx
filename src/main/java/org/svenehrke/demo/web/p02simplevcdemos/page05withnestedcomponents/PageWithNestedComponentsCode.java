@@ -19,19 +19,6 @@ public class PageWithNestedComponentsCode {
       `)}
       """;
 
-	public static String HELLO_WORLD_JTE = """
-      @param HelloWorldNestedComponents.Ctx ctx
-      
-      ${ctx.greetingText()}
-      """;
-
-	public static String HELLO_WORLD_JAVA = """
-      @ViewComponent
-      public class HelloWorldNestedComponents {
-        public record Ctx(Content greetingText) implements ViewContext {}
-      }
-      """;
-
 	public static String PAGE_JAVA = """
       @ViewComponent
       public class PageWithNestedComponents {
@@ -42,6 +29,19 @@ public class PageWithNestedComponentsCode {
         public Ctx ctx() {
           return new Ctx();
         }
+      }
+      """;
+
+	public static String HELLO_WORLD_JTE = """
+      @param HelloWorldNestedComponents.Ctx ctx
+      
+      ${ctx.greetingText()}
+      """;
+
+	public static String HELLO_WORLD_JAVA = """
+      @ViewComponent
+      public class HelloWorldNestedComponents {
+        public record Ctx(Content greetingText) implements ViewContext {}
       }
       """;
 

@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/simplepage.css"/>
 </head>
 <body class="page">
-<div class="pagecontent">
+<div>
 <h1>Page with Component</h1>
 
 <!-- Include Component: -->

@@ -6,7 +6,7 @@
 </head>
 
 <body class="page">
-<div class="pagecontent">
+<div>
 <h1>Application Page</h1>
 
 @template.jte.plainjte.page01_code()

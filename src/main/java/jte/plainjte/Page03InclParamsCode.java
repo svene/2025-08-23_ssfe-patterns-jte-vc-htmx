@@ -18,13 +18,6 @@ public class Page03InclParamsCode {
       )
       """;
 
-	public static String HELLO_WORLD_JTE = """
-      @param String greeting = "Hello"
-      @param String greetee = "World"
-
-      <h3>${greeting} ${greetee}</h3>
-      """;
-
 	public static String PAGE_JAVA = """
       @Controller
       public class PlainJTEController {
@@ -36,6 +29,13 @@ public class Page03InclParamsCode {
           return "jte/plainjte/page03inclparams";
         }
       }
+      """;
+
+	public static String HELLO_WORLD_JTE = """
+      @param String greeting = "Hello"
+      @param String greetee = "World"
+
+      <h3>${greeting} ${greetee}</h3>
       """;
 
 }

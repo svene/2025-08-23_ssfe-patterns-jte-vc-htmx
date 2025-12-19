@@ -17,6 +17,19 @@ public class PageWithContentParamsComponentCode {
       `)}
       """;
 
+	public static String PAGE_JAVA = """
+      @ViewComponent
+      public class PageWithContentParamsComponent {
+        public static final String URL = "/ui/demos/simplevc/pagewithcontentparamscomponent";
+        public record Ctx() implements ViewContext {}
+      
+        @GetMapping(URL)
+        public Ctx ctx() {
+          return new Ctx();
+        }
+      }
+      """;
+
 	public static String HELLO_WORLD_JTE = """
       @param HelloWorldContent.Ctx ctx
       
@@ -30,16 +43,4 @@ public class PageWithContentParamsComponentCode {
       }
       """;
 
-	public static String PAGE_JAVA = """
-      @ViewComponent
-      public class PageWithContentParamsComponent {
-        public static final String URL = "/ui/demos/simplevc/pagewithcontentparamscomponent";
-        public record Ctx() implements ViewContext {}
-      
-        @GetMapping(URL)
-        public Ctx ctx() {
-          return new Ctx();
-        }
-      }
-      """;
 }

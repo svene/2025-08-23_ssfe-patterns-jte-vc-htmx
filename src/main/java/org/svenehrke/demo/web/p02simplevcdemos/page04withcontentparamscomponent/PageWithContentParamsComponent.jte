@@ -9,7 +9,7 @@
 </head>
 
 <body class="page">
-<div class="pagecontent">
+<div>
     <h1>Page with ContentParams-Component</h1>
 
     ${new HelloWorldContent.Ctx(@` <%-- include HTML content --%>

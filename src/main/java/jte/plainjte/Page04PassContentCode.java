@@ -13,12 +13,6 @@ public class Page04PassContentCode {
       )
       """;
 
-	public static String HELLO_WORLD_JTE = """
-      @param gg.jte.Content greetingText = @``
-
-      ${greetingText}
-      """;
-
 	public static String PAGE_JAVA = """
       @Controller
       public class PlainJTEController {
@@ -29,6 +23,12 @@ public class Page04PassContentCode {
           return "jte/plainjte/page04passcontent";
         }
       }
+      """;
+
+	public static String HELLO_WORLD_JTE = """
+      @param gg.jte.Content greetingText = @``
+
+      ${greetingText}
       """;
 
 }

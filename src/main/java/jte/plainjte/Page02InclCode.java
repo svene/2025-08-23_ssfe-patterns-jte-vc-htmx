@@ -8,10 +8,6 @@ public class Page02InclCode {
       @template.jte.components.helloworld()
       """;
 
-	public static String HELLO_WORLD_JTE = """
-      <h3>Hello world!</h3>
-      """;
-
 	public static String PAGE_JAVA = """
       @Controller
       public class PlainJTEController {
@@ -22,6 +18,10 @@ public class Page02InclCode {
           return "jte/plainjte/page02incl";
         }
       }
+      """;
+
+	public static String HELLO_WORLD_JTE = """
+      <h3>Hello world!</h3>
       """;
 
 }

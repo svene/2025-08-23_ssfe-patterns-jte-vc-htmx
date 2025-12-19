@@ -8,7 +8,7 @@
 </head>
 
 <body class="page">
-<div class="pagecontent">
+<div>
 <h1>Application Page</h1>
 
 ${new PageCode.Ctx()}

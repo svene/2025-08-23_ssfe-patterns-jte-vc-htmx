@@ -6,7 +6,7 @@
 </head>
 <body class="page">
 
-<div class="pagecontent">
+<div>
 
 <h1>Page with ContentParams-Component</h1>
 
