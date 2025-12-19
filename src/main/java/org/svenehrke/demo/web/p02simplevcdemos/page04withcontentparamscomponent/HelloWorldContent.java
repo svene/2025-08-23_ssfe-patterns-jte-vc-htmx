@@ -7,11 +7,5 @@ import gg.jte.Content;
 
 @ViewComponent
 public class HelloWorldContent {
-
-	public record Ctx(Content greetingText) implements ViewContext {
-	}
-
-	public static Ctx ctx(Content greetingText) {
-		return new Ctx(greetingText);
-	}
+	public record Ctx(Content greetingText) implements ViewContext {}
 }

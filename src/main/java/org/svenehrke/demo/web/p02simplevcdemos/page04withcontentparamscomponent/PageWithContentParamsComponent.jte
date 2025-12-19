@@ -10,9 +10,9 @@
 
 <body class="page">
 <div class="pagecontent">
-    <h1>Application Page</h1>
+    <h1>Page with ContentParams-Component</h1>
 
-    ${new HelloWorldContent.Ctx(@`
+    ${new HelloWorldContent.Ctx(@` <%-- include HTML content --%>
         How are you?<br>
         Hopefully <strong>very well</strong>.<br>
         <p>See you soon!</p>
