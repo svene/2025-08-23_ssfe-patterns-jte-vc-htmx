@@ -2,7 +2,7 @@ package jte.plainjte;
 
 public class Page04PassContentCode {
 	public static String PAGE_JTE = """
-      <h1>Application Page</h1>
+      <h1>Page with ContentParams-Component</h1>
 
       @template.jte.components.helloworldcontent(
         greetingText = @` <%-- include HTML content --%>

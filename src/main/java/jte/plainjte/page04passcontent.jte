@@ -8,7 +8,7 @@
 
 <div class="pagecontent">
 
-<h1>Application Page</h1>
+<h1>Page with ContentParams-Component</h1>
 
 @template.jte.components.helloworldcontent(
   greetingText = @` <%-- include HTML content --%>
