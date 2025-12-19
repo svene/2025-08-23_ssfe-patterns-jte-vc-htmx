@@ -8,7 +8,7 @@
 
 <div class="pagecontent">
 
-<h1>Application Page</h1>
+<h1>Page with Nested Components</h1>
 
 @template.jte.components.helloworldcontent(
   greetingText = @` <%-- outer template --%>

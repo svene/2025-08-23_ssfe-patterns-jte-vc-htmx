@@ -2,7 +2,7 @@ package jte.plainjte;
 
 public class Page05NestedCode {
 	public static String PAGE_JTE = """
-      <h1>Application Page</h1>
+      <h1>Page with Nested Components</h1>
 
       @template.jte.components.helloworldcontent(
         greetingText = @` <%-- outer template --%>
@@ -25,6 +25,12 @@ public class Page05NestedCode {
           return "jte/plainjte/page05nested";
         }
       }
+      """;
+
+	public static String HELLO_WORLD_JTE = """
+      @param gg.jte.Content greetingText = @``
+
+      ${greetingText}
       """;
 
 }
