@@ -7,10 +7,5 @@ import gg.jte.Content;
 
 @ViewComponent
 public class MpaLayout {
-
-	public record Ctx(
-		String selectedMenu,
-		Content content
-	) implements ViewContext {
-	}
+	public record Ctx(String selectedMenu, Content content) implements ViewContext {}
 }

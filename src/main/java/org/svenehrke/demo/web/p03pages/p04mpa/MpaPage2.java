@@ -9,16 +9,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 @ViewComponent
 @Controller
 public class MpaPage2 {
-
 	public static final String URL = "/ui/pages/mpapage2";
-
-	public record Ctx() implements ViewContext {
-	}
+	public record Ctx() implements ViewContext {}
 
 	@GetMapping(URL)
 	public Ctx ctx() {
 		return new Ctx();
 	}
-
-
 }
