@@ -11,10 +11,10 @@
 <h1>Application Page</h1>
 
 @template.jte.components.helloworldcontent(
-  greetingText = @`
+  greetingText = @` <%-- outer template --%>
     <p>before nested content</p>
     @template.jte.components.helloworldcontent(
-      greetingText = @`
+      greetingText = @` <%-- nested template --%>
         <p>NESTED CONTENT</p>
     `)
     <p>after nested content</p>
