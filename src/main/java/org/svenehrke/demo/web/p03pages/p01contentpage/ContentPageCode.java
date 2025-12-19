@@ -5,6 +5,26 @@ import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 
 @ViewComponent
 public class ContentPageCode {
-	public record Ctx() implements ViewContext {
-	}
+	public record Ctx() implements ViewContext {}
+
+	public static String PAGE_JTE = """
+      @template.jte.pages.bulmapage(
+        content = @`
+          <h1>Content Page</h1>
+      `)
+      """;
+
+	public static String PAGE_JAVA = """
+      @ViewComponent
+      @Controller
+      public class ContentPage {
+        public static final String URL = "/ui/pages/contentpage";
+        public record Ctx() implements ViewContext {}
+  
+        @GetMapping(URL)
+        public Ctx ctx() {
+          return new Ctx();
+        }
+      }
+      """;
 }

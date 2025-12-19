@@ -3,6 +3,7 @@
 @template.jte.pages.bulmapage(
 content = @`
     <h1 class="title">Content Page</h1>
+    <hr>
     ${new ContentPageCode.Ctx()}
 `
 )

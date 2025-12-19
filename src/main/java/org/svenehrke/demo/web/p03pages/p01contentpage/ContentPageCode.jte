@@ -1,22 +1,16 @@
-<hr>
-<h2 class="subtitle">Code</h2>
-<div>
-    <strong>src/main/java/.../ContentPage.java:</strong>
-    <pre><code>&#64;ViewComponent
-&#64;Controller
-public class ContentPage {
+@import org.svenehrke.demo.web.p03pages.p01contentpage.ContentPageCode
 
-  public static final String URL = "/ui/pages/contentpage";
-  public record Ctx() implements ViewContext {}
+<div class="fixed-grid">
+<div class="grid">
 
-  &#64;GetMapping(URL)
-  public Ctx ctx() {
-    return new Ctx();
-  }
-}
-</code></pre>
+        @template.jte.components.codesnippet(
+title = "ContentPage.jte",
+codeSnippet = @`${ContentPageCode.PAGE_JTE}`
+)
+@template.jte.components.codesnippet(
+title = "ContentPage.java",
+codeSnippet = @`${ContentPageCode.PAGE_JAVA}`
+)
 
-    <strong>src/main/java/.../ContentPage.jte:</strong>
-    <pre><code>&lt;h1&gt;Content Page&lt;/h1&gt;
-</code></pre>
+</div>
 </div>
