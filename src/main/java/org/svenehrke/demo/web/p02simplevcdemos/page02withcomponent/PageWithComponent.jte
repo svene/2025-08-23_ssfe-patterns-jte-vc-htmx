@@ -5,6 +5,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>PageWithComponent</title>
     <link rel="stylesheet" href="/simplepage.css"/>
 </head>
 
@@ -12,8 +13,8 @@
 <div class="pagecontent">
 <h1>Application Page</h1>
 
-${new HelloWorld.Ctx()}
-${HelloWorld.ctx()}
+${new HelloWorld.Ctx()} <%-- include the View Component (variant 1) --%> <%-- TODO: make sure this is shown only once --%>
+${HelloWorld.ctx()} <%-- include the View Component (variant 2) --%>
 
 ${new PageWithComponentCode.Ctx()}
 

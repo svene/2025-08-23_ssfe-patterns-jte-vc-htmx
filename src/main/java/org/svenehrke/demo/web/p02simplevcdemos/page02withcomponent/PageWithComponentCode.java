@@ -5,6 +5,30 @@ import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 
 @ViewComponent
 public class PageWithComponentCode {
-	public record Ctx() implements ViewContext {
-	}
+	public record Ctx() implements ViewContext {}
+
+	public static String PAGE_JTE = """
+      <h1>Application Page</h1>
+      
+      ${new HelloWorld.Ctx()} <%-- include the View Component (variant 1) --%>
+      ${HelloWorld.ctx()} <%-- include the View Component (variant 2) --%>
+      """;
+
+	public static String HELLO_WORLD_JTE = """
+      <h3>Hello world!</h3>
+      """;
+
+	public static String PAGE_JAVA = """
+      @ViewComponent
+      @Controller
+      public class PageWithComponent {
+        public static final String URL = "/ui/demos/simplevc/pagewithcomponent";
+        public record Ctx() implements ViewContext {} // <=== include the View Component (variant 1)
+
+        @GetMapping(URL)
+        public Ctx ctx() { // <=== include the View Component (variant 2)
+          return new Ctx();
+        }
+      }
+      """;
 }
