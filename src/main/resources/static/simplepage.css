@@ -12,6 +12,11 @@
 	display: flex;
 	gap: 5px
 }
+
+.coderow + .coderow {
+	margin-top: 5px;
+}
+
 .codeblock {
 	background-color: white;
 	color: black;

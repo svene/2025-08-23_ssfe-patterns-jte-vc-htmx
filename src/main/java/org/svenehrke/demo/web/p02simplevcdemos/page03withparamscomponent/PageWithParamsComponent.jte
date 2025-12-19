@@ -10,7 +10,7 @@
 
 <body class="page">
 <div class="pagecontent">
-<h1>Application Page</h1>
+<h1>Page with Params-Component</h1>
 
 ${new HelloWorldParams.Ctx("hello", "world")}
 

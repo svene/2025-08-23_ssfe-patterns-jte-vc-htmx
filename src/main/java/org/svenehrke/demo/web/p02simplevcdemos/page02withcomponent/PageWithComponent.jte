@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PageWithComponent</title>
+    <title>Page with Component</title>
     <link rel="stylesheet" href="/simplepage.css"/>
 </head>
 
