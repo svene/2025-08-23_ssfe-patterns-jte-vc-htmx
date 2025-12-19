@@ -1,7 +1,7 @@
 @import jte.plainjte.Page03InclParamsCode
 
 <div class="codeblock">
-    <strong>page02incl.jte</strong>
+    <strong>page03inclparams.jte</strong>
     <pre><code>${Page03InclParamsCode.PAGE_JTE}</code></pre>
     <hr>
     <strong>helloworldparams.jte</strong>

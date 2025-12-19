@@ -11,7 +11,7 @@
 <h1>Application Page</h1>
 
 @template.jte.components.helloworldcontent(
-  greetingText = @`
+  greetingText = @` <%-- include HTML content --%>
     How are you?<br>
     Hopefully <strong>very well</strong>.<br>
     <p>See you soon!</p>
