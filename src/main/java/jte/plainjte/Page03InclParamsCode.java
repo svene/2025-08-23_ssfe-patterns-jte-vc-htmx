@@ -5,7 +5,7 @@ public class Page03InclParamsCode {
       <%-- from model, passed by controller: --%>
       @param String greetee
 		
-      <h1>Application Page</h1>
+      <h1>Page with Params-Component</h1>
 
       <%--
       First parameter passed literally from this template.
