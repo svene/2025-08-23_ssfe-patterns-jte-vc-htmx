@@ -9,15 +9,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 @ViewComponent
 @Controller
 public class Page {
-
 	public static final String URL = "/ui/demos/simplevc/page";
-
-	public record Ctx() implements ViewContext {
-	}
+	public record Ctx() implements ViewContext {}
 
 	@GetMapping(URL)
-	public Ctx ctx(
-	) {
+	public Ctx ctx() {
 		return new Ctx();
 	}
 }
