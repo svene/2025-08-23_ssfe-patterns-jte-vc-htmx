@@ -8,6 +8,10 @@
 
 .pagecontent {
 }
+.coderow {
+	display: flex;
+	gap: 5px
+}
 .codeblock {
 	background-color: white;
 	color: black;
