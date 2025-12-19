@@ -14,7 +14,7 @@ public class Page02InclCode {
         public static final String PAGE_02_INCL_URL = "/page02incl";
 
         @GetMapping(PAGE_02_INCL_URL)
-        public String app() {
+        public String appPageIncl() {
           return "jte/plainjte/page02incl";
         }
       }

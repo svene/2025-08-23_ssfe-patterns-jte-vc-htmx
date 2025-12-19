@@ -1,3 +1,4 @@
+<%-- from model, passed by controller: --%>
 @param String greetee
 
 <!DOCTYPE html>
@@ -11,10 +12,10 @@
 <div class="pagecontent">
 <h1>Application Page</h1>
 
-<!--
+<%--
 first parameter passed literally from this template.
 Second parameter coming in from controller through Model and passed to included template:
--->
+--%>
 @template.jte.components.helloworldparams(
   greeting = "Hello",
   greetee = greetee

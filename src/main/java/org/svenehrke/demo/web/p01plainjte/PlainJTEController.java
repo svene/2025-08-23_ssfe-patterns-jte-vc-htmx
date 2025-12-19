@@ -25,8 +25,7 @@ public class PlainJTEController {
 
 	@GetMapping(PAGE_03_INCL_PARAMS_URL)
 	public String appPageInclParams(Model model) {
-		var firstName = "Bart";
-		model.addAttribute("greetee", firstName);
+		model.addAttribute("greetee", "Bart");
 		return "jte/plainjte/page03inclparams";
 	}
 
