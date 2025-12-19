@@ -13,7 +13,6 @@
 <h1>Application Page</h1>
 
 ${new HelloWorldParams.Ctx("hello", "world")}
-${HelloWorldParams.ctx("hello", "world")}
 
 ${new PageWithParamsComponentCode.Ctx()}
 
