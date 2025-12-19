@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents.HelloWorldNestedContent
+@import org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents.HelloWorldNestedComponents
 @import org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents.PageWithNestedComponentsCode
 <!DOCTYPE html>
 
@@ -10,12 +10,11 @@
 
 <body class="page">
 <div class="pagecontent">
-    <h1>Application Page</h1>
+    <h1>Page with Nested Components</h1>
 
-    ${new HelloWorldNestedContent.Ctx(@`
+    ${new HelloWorldNestedComponents.Ctx(@`
         <p>before nested content</p>
-
-        ${new HelloWorldNestedContent.Ctx(@`
+        ${new HelloWorldNestedComponents.Ctx(@`
             <p>NESTED CONTENT</p>
         `)}
         <p>after nested content</p>

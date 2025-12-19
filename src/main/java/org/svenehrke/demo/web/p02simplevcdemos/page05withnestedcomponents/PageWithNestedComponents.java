@@ -9,11 +9,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageWithNestedComponents {
 	public static final String URL = "/ui/demos/simplevc/pagewithnestedcomponents";
-	public record Ctx() implements ViewContext {
-	}
+	public record Ctx() implements ViewContext { }
+
 	@GetMapping(URL)
-	public Ctx ctx(
-	) {
+	public Ctx ctx() {
 		return new Ctx();
 	}
 }
