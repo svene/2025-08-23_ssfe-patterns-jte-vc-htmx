@@ -1,5 +1,15 @@
 @import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentChildCode
 
+<div class="content">
+    <h6>Applicability</h6>
+    <p>Use when</p>
+    <ul>
+        <li>a child component has a rather large HTML content</li>
+        <li>a parent component needs to customize a rather small part (or parts) of the child component</li>
+    </ul>
+</div>
+<hr>
+
 <div class="fixed-grid">
  <div class="grid">
 
@@ -32,4 +42,3 @@
 
     </div>
 </div>
-

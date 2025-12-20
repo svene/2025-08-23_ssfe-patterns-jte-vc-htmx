@@ -1,5 +1,15 @@
 @import org.svenehrke.demo.web.p04uipatterns.p02forwarder.ForwarderCode
 
+<div class="content">
+    <h6>Intent</h6>
+    <p>Forward a request from one component to another</p>
+</div>
+<div class="content">
+    <h6>Applicability</h6>
+    <p>Use when a component recognizes that it cannot handle the request itself</p>
+</div>
+<hr>
+
 <div class="fixed-grid">
 <div class="grid">
 
