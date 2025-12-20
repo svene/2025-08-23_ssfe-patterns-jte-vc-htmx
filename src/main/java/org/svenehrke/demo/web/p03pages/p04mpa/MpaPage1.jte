@@ -3,13 +3,25 @@
 
 @param MpaPage1.Ctx ctx
 
-
 ${new MpaLayout.Ctx(
 	"page1",
 	@`
-    <div class="is-flex is-justify-content-space-around p-1">
-        <div class="p-1">
-            <h4 class="subtitle is-4">Page 1</h4>
+    <div class="p-1">
+        <div class="content">
+            <p>The pages of this application all use a common layout component (the template).</p>
+            <p>In contrast to the Inclusion Pattern the <strong>layout</strong> component <strong>plays an active role</strong><br>
+                in the template process because it pulls in the component.<br>
+                The component plays the passive role.<br>
+                Therefore it is the layout which uses the injection pattern, not the component.
+            </p>
+            <p>Since the components are injected into the layout dynamically<br>
+                it can be reused for all pages of the application.</p>
+
+            <p>For this demo the injected component-content is surrounded with a colored border<br>
+                to show what is coming from the layout and what is coming from the component.<br>
+                Everything outside the border is coming from the layout template.<br>
+                Everything inside is comping from the injected component.
+            </p>
         </div>
 
     </div>
