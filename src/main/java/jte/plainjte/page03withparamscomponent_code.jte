@@ -2,7 +2,7 @@
 
 <div class="codearea">
     <div class="codeareacell">
-        <strong>page03inclparams.jte</strong>
+        <strong>page03withparamscomponent.jte</strong>
         <pre><code>${Page03WithParamsComponentCode.PAGE_JTE}</code></pre>
     </div>
     <div class="codeareacell">

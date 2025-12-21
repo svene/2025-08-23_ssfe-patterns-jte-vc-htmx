@@ -1,6 +1,6 @@
 package jte.plainjte;
 
-public class Page05NestedCode {
+public class Page05WithNestedComponentsCode {
 	public static String PAGE_JTE = """
       <h1>Page with Nested Components</h1>
 

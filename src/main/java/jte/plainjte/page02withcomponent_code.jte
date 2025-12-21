@@ -2,7 +2,7 @@
 
 <div class="codearea">
     <div class="codeareacell">
-        <strong>page02incl.jte</strong>
+        <strong>page02withcomponent.jte</strong>
         <pre><code>${Page02WithComponentCode.PAGE_JTE}</code></pre>
     </div>
     <div class="codeareacell">

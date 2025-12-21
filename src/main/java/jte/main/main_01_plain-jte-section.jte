@@ -38,7 +38,7 @@
             )
 
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_05_NESTED_URL,
+            url = PlainJTEController.PAGE_05_WITH_NESTED_COMPONENTS_URL,
             title = @`Nested components`,
             subtitle = @`or: template in template`,
             recommendation = @`if you need components in content-parameters`,
