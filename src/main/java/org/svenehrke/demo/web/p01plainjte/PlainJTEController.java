@@ -9,7 +9,7 @@ public class PlainJTEController {
 
 	public static final String PAGE_01_URL = "/page01";
 	public static final String PAGE_02_WITH_COMPONENT_URL = "/page02withcomponent";
-	public static final String PAGE_03_INCL_PARAMS_URL = "/page03inclparams";
+	public static final String PAGE_03_WITH_PARAMS_COMPONENT_URL = "/page03withparamscomponent";
 	public static final String PAGE_04_PASS_CONTENT_URL = "/page04passcontent";
 	public static final String PAGE_05_NESTED_URL = "/page05nested";
 
@@ -23,10 +23,10 @@ public class PlainJTEController {
 		return "jte/plainjte/page02withcomponent";
 	}
 
-	@GetMapping(PAGE_03_INCL_PARAMS_URL)
+	@GetMapping(PAGE_03_WITH_PARAMS_COMPONENT_URL)
 	public String appPageInclParams(Model model) {
 		model.addAttribute("greetee", "Bart");
-		return "jte/plainjte/page03inclparams";
+		return "jte/plainjte/page03withparamscomponent";
 	}
 
 	@GetMapping(PAGE_04_PASS_CONTENT_URL)

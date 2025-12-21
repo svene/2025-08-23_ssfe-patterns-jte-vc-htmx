@@ -21,7 +21,7 @@ Second parameter coming in from controller through Model and passed to included 
   greetee = greetee
 )
 
-@template.jte.plainjte.page03inclparams_code()
+@template.jte.plainjte.page03withparamscomponent_code()
 
 </div>
 </body>

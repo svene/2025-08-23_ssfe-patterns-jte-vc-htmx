@@ -22,7 +22,7 @@
             )
 
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_03_INCL_PARAMS_URL,
+            url = PlainJTEController.PAGE_03_WITH_PARAMS_COMPONENT_URL,
             title = @`Page and Component`,
             subtitle = @`with parameters`,
             recommendation = @`When page and/or component need parameters`,

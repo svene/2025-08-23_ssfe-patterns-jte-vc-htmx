@@ -1,6 +1,6 @@
 package jte.plainjte;
 
-public class Page03InclParamsCode {
+public class Page03WithParamsComponentCode {
 	public static String PAGE_JTE = """
       <%-- from model, passed by controller: --%>
       @param String greetee
