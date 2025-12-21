@@ -30,7 +30,7 @@
             )
 
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_04_PASS_CONTENT_URL,
+            url = PlainJTEController.PAGE_04_WITH_CONTENT_PARAMS_COMPONENT_URL,
             title = @`Content parameter`,
             subtitle = @`passed from page to component`,
             recommendation = @`When html needs to be passed into component`,

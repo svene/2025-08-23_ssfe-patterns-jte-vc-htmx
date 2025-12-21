@@ -1,6 +1,6 @@
 package jte.plainjte;
 
-public class Page04PassContentCode {
+public class Page04WithContentParamsComponentCode {
 	public static String PAGE_JTE = """
       <h1>Page with ContentParams-Component</h1>
 

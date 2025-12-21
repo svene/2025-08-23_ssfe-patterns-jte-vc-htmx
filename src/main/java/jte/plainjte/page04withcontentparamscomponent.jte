@@ -17,7 +17,7 @@
     <p>See you soon!</p>
 `
 )
-@template.jte.plainjte.page04passcontent_code()
+@template.jte.plainjte.page04withcontentparamscomponent_code()
 
 </div>
 
