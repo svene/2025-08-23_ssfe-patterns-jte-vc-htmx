@@ -15,7 +15,7 @@
             )
 
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_02_INCL_URL,
+            url = PlainJTEController.PAGE_02_WITH_COMPONENT_URL,
             title = @`Basic JTE Page`,
             subtitle = @`using a JTE component`,
             content = @`Demo...`

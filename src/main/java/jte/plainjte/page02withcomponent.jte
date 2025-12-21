@@ -11,7 +11,7 @@
 <!-- Include Component: -->
 @template.jte.components.helloworld()
 
-@template.jte.plainjte.page02incl_code()
+@template.jte.plainjte.page02withcomponent_code()
 
 </div>
 </body>

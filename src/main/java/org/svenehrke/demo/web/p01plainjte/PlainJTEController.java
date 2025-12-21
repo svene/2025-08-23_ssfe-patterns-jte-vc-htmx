@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class PlainJTEController {
 
 	public static final String PAGE_01_URL = "/page01";
-	public static final String PAGE_02_INCL_URL = "/page02incl";
+	public static final String PAGE_02_WITH_COMPONENT_URL = "/page02withcomponent";
 	public static final String PAGE_03_INCL_PARAMS_URL = "/page03inclparams";
 	public static final String PAGE_04_PASS_CONTENT_URL = "/page04passcontent";
 	public static final String PAGE_05_NESTED_URL = "/page05nested";
@@ -18,9 +18,9 @@ public class PlainJTEController {
 		return "jte/plainjte/page01";
 	}
 
-	@GetMapping(PAGE_02_INCL_URL)
+	@GetMapping(PAGE_02_WITH_COMPONENT_URL)
 	public String appPageIncl() {
-		return "jte/plainjte/page02incl";
+		return "jte/plainjte/page02withcomponent";
 	}
 
 	@GetMapping(PAGE_03_INCL_PARAMS_URL)

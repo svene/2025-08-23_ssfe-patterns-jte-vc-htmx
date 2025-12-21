@@ -1,6 +1,6 @@
 package jte.plainjte;
 
-public class Page02InclCode {
+public class Page02WithComponentCode {
 	public static String PAGE_JTE = """
       <h1>Page with Component</h1>
 
