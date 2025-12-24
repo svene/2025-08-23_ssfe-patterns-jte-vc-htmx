@@ -17,7 +17,7 @@ first parameter passed literally from this template.
 Second parameter coming in from controller through Model and passed to included template:
 --%>
 @template.jte.components.helloworldparams(
-  greeting = "Hello",
+  greeting = "Hey",
   greetee = greetee
 )
 

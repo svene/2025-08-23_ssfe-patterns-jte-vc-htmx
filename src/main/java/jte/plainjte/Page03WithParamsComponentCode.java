@@ -13,7 +13,7 @@ public class Page03WithParamsComponentCode {
       and passed to included template:
       --%>
       @template.jte.components.helloworldparams(
-        greeting = "Hello", // <=== literal parameter
+        greeting = "Hey", // <=== literal parameter
         greetee = greetee   // <=== model parameter
       )
       """;
@@ -25,7 +25,7 @@ public class Page03WithParamsComponentCode {
 
         @GetMapping(PAGE_03_INCL_PARAMS_URL)
         public String appPageInclParams(Model model) {
-          model.addAttribute("greetee", "Bart");
+          model.addAttribute("greetee", "You");
           return "jte/plainjte/page03inclparams";
         }
       }
@@ -35,7 +35,7 @@ public class Page03WithParamsComponentCode {
       @param String greeting = "Hello"
       @param String greetee = "World"
 
-      <h3>${greeting} ${greetee}</h3>
+      <h3>${greeting} ${greetee}!</h3>
       """;
 
 }
