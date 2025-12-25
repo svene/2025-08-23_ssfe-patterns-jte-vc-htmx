@@ -27,4 +27,14 @@ public class ContentPageCode {
         }
       }
       """;
+	public static String BULMA_PAGE_JTE = """
+      @param Content content = @``
+      <!DOCTYPE html>
+      <html lang="en">
+      @template.jte.pages.page_head()
+      <body>
+        ${content}
+      </body>
+      </html>
+      """;
 }
