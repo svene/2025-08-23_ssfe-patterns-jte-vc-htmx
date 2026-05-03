@@ -45,7 +45,7 @@
             url = PageWithNestedComponents.URL,
             title = @`Nested components`,
             subtitle = @`or: template in template`,
-            recommendation = @`if you need components in content-parameters`,
+            recommendation = @`If you need components in content-parameters`,
             content = @`Demo...`
             )
 

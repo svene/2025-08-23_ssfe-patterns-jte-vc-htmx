@@ -15,6 +15,7 @@ public class ContentPageWithParam {
 
 	@GetMapping(URL)
 	public Ctx ctx(
+		// TODO: remove this param from other demos:
 		@RequestParam(name = "greeting", required = false, defaultValue = "Hello") String greeting
 	) {
 		return new Ctx(greeting);

@@ -11,6 +11,5 @@ ${new MpaLayout.Ctx(
         <div class="p-1">
             <h4 class="subtitle is-4">Page 2</h4>
         </div>
-
     </div>
 `)}

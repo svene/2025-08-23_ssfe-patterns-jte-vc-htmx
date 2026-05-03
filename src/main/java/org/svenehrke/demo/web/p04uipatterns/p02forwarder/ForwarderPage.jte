@@ -6,7 +6,7 @@
 
 @template.jte.pages.bulmapage(
 content = @`
-<h3>Forwarder-Page</h3>
+    <h1 class="title">Forwarder-Page</h1>
     <div>${new First.Ctx("hello")}</div>
     <div>${new First().ctx("hello with forward")}</div> <%-- usage of context function bc. of logic --%>
     <hr>

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class P05P01Message {
 
-	public static final String URL = "/ui/components/p05/p01/greeting";
+	public static final String URL = "/ui/components/p05/p01/message";
 
 	public record Ctx(String message) implements ViewContext {
 	}

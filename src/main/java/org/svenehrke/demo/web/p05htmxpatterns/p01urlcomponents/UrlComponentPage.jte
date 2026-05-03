@@ -2,7 +2,7 @@
 
 @template.jte.pages.bulmapage(
 content = @`
-    <h1 class="title">UrlComponentPage</h1>
+    <h1 class="title">UrlComponent-Page</h1>
 
     <button
             class="button"

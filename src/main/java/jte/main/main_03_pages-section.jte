@@ -6,7 +6,7 @@
 <section class="section">
     <h1 class="title">Page Patterns</h1>
     <h2 class="subtitle">
-        Patterns to build pages for Multi Page Applications (MPAs)<br>or just a single page
+        For Multi Page Applications (MPAs)<br>or just a single page
     </h2>
 
     <div class="fixed-grid">
@@ -20,10 +20,10 @@
             )
 
             @template.jte.main.maincard(
-            url = ContentPageWithParam.URL,
+            url = ContentPageWithParam.URL + "?greeting=Hey You!",
             title = @`Content Page`,
             subtitle = @`taking a parameter`,
-            recommendation = @`when the page itself needs a parameter`,
+            recommendation = @`When the page itself needs a parameter`,
             content = @`Demo...`
             )
 
@@ -31,7 +31,7 @@
             url = CustomPageWithParam.URL,
             title = @`Custom Page`,
             subtitle = @`taking a parameter`,
-            recommendation = @`when the opinionated content page does not fit`,
+            recommendation = @`When the opinionated content page does not fit`,
             content = @`Demo...`
             )
 
