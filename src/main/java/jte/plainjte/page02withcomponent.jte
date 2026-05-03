@@ -6,12 +6,15 @@
 </head>
 <body class="page">
 <div>
+<!-- docs:start page02 -->
 <h1>Page with Component</h1>
 
 <!-- Include Component: -->
 @template.jte.components.helloworld()
+<!-- docs:end page02 -->
 
-@template.jte.plainjte.page02withcomponent_code()
+<hr>
+<a href="http://localhost:4321/demos/s01/#2-basic-page-using-a-jte-component">Docs</a>
 
 </div>
 </body>
