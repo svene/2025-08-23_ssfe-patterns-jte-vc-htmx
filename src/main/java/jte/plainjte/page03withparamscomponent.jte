@@ -24,7 +24,6 @@ Second parameter coming in from controller through Model and passed to included 
   greetee = greetee
 )
 <%-- docs:end page03 --%>
-
 <hr>
 <a href="http://localhost:4321/demos/s01/#3-page-and-component-with-parameters">Docs</a>
 

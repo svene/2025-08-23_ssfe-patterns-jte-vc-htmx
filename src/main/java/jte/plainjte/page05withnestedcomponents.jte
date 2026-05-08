@@ -7,7 +7,7 @@
 <body class="page">
 
 <div>
-
+<%-- docs:start page05 --%>
 <h1>Page with Nested Components</h1>
 
 @template.jte.components.helloworldcontent(
@@ -19,7 +19,9 @@
     `)
     <p>after nested content</p>
   `)
-@template.jte.plainjte.page05withnestedcomponents_code()
+<%-- docs:end page05 --%>
+<hr>
+<a href="http://localhost:4321/demos/s01/#5-nested-components">Docs</a>
 
 </div>
 

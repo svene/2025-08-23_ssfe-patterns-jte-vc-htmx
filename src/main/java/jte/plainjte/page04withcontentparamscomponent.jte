@@ -7,7 +7,7 @@
 <body class="page">
 
 <div>
-
+<%-- docs:start page04 --%>
 <h1>Page with ContentParams-Component</h1>
 
 @template.jte.components.helloworldcontent(
@@ -17,7 +17,9 @@
     <p>See you soon!</p>
 `
 )
-@template.jte.plainjte.page04withcontentparamscomponent_code()
+<%-- docs:end page04 --%>
+<hr>
+<a href="http://localhost:4321/demos/s01/#4-content-parameter">Docs</a>
 
 </div>
 
