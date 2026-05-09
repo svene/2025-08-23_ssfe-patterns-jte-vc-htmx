@@ -10,6 +10,7 @@
 
 <body class="page">
 <div>
+    <%-- docs:start page --%>
     <h1>Page with Nested Components</h1>
 
     ${new HelloWorldNestedComponents.Ctx(@`
@@ -19,6 +20,7 @@
         `)}
         <p>after nested content</p>
     `)}
+    <%-- docs:start page --%>
     ${new PageWithNestedComponentsCode.Ctx()}
 </div>
 </body>

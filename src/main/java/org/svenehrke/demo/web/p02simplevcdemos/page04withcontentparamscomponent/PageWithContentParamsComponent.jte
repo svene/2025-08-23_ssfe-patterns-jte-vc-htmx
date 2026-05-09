@@ -1,5 +1,4 @@
 @import org.svenehrke.demo.web.p02simplevcdemos.page04withcontentparamscomponent.HelloWorldContent
-@import org.svenehrke.demo.web.p02simplevcdemos.page04withcontentparamscomponent.PageWithContentParamsComponentCode
 <!DOCTYPE html>
 
 <html lang="en">
@@ -10,6 +9,7 @@
 
 <body class="page">
 <div>
+    <%-- docs:start page --%>
     <h1>Page with ContentParams-Component</h1>
 
     ${new HelloWorldContent.Ctx(@` <%-- include HTML content --%>
@@ -17,8 +17,9 @@
         Hopefully <strong>very well</strong>.<br>
         <p>See you soon!</p>
     `)}
-
-    ${new PageWithContentParamsComponentCode.Ctx()}
+    <%-- docs:end page --%>
+    <hr>
+    <a href="http://localhost:4321/demos/s02/#4-content-parameter">Docs</a>
 
 </div>
 </body>
