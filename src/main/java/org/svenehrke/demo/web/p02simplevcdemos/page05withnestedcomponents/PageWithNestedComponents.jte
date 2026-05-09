@@ -1,5 +1,4 @@
 @import org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents.HelloWorldNestedComponents
-@import org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents.PageWithNestedComponentsCode
 <!DOCTYPE html>
 
 <html lang="en">
@@ -20,8 +19,9 @@
         `)}
         <p>after nested content</p>
     `)}
-    <%-- docs:start page --%>
-    ${new PageWithNestedComponentsCode.Ctx()}
+    <%-- docs:end page --%>
+    <hr>
+    <a href="http://localhost:4321/demos/s02/#5-nested-components">Docs</a>
 </div>
 </body>
 </html>
