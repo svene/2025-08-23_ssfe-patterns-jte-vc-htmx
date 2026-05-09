@@ -5,7 +5,7 @@ import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-
+// docs:start page
 @ViewComponent
 @Controller
 public class Page {
@@ -17,3 +17,4 @@ public class Page {
 		return new Ctx();
 	}
 }
+// docs:end page

@@ -9,9 +9,11 @@
 
 <body class="page">
 <div>
-<h1>Application Page</h1>
+<%-- docs:start page --%>
+    <h1>Application Page</h1>
+<%-- docs:end page --%>
 
-${new PageCode.Ctx()}
+    ${new PageCode.Ctx()}
 
 </div>
 </body>

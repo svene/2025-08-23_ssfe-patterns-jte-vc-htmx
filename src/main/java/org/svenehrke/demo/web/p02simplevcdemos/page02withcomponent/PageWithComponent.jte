@@ -1,5 +1,4 @@
 @import org.svenehrke.demo.web.p02simplevcdemos.page02withcomponent.HelloWorld
-@import org.svenehrke.demo.web.p02simplevcdemos.page02withcomponent.PageWithComponentCode
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,11 +10,11 @@
 
 <body class="page">
 <div>
+<%-- docs:start page --%>
 <h1>Page with Component</h1>
 
 ${new HelloWorld.Ctx()}
-
-${new PageWithComponentCode.Ctx()}
+<%-- docs:end page --%>
 
 </div>
 </body>
