@@ -11,6 +11,8 @@
 <%-- docs:start page --%>
     <h1>Application Page</h1>
 <%-- docs:end page --%>
+    <hr>
+    <a href="http://localhost:4321/demos/s02/#1-basic-view-component-page">Docs</a>
 
 </div>
 </body>

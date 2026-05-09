@@ -15,6 +15,8 @@
 
 ${new HelloWorld.Ctx()}
 <%-- docs:end page --%>
+    <hr>
+    <a href="http://localhost:4321/demos/s02/#2-vc-page-with-component">Docs</a>
 
 </div>
 </body>

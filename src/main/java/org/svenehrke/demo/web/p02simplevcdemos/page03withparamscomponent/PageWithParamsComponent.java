@@ -6,6 +6,7 @@ import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+// docs:start page
 @ViewComponent
 @Controller
 public class PageWithParamsComponent {
@@ -17,3 +18,4 @@ public class PageWithParamsComponent {
 		return new Ctx();
 	}
 }
+// docs:end page

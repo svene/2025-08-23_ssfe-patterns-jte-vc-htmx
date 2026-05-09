@@ -1,5 +1,4 @@
 @import org.svenehrke.demo.web.p02simplevcdemos.page03withparamscomponent.HelloWorldParams
-@import org.svenehrke.demo.web.p02simplevcdemos.page03withparamscomponent.PageWithParamsComponentCode
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,12 +9,13 @@
 
 <body class="page">
 <div>
+<%-- docs:start page --%>
 <h1>Page with Params-Component</h1>
 
 ${new HelloWorldParams.Ctx("hello", "world")}
-
-${new PageWithParamsComponentCode.Ctx()}
-
+<%-- docs:end page --%>
+    <hr>
+    <a href="http://localhost:4321/demos/s02/#3-parameters">Docs</a>
 </div>
 </body>
 </html>
