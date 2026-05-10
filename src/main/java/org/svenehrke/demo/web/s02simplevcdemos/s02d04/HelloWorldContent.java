@@ -1,4 +1,4 @@
-package org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents;
+package org.svenehrke.demo.web.s02simplevcdemos.s02d04;
 
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
@@ -7,7 +7,7 @@ import gg.jte.Content;
 
 // docs:start component
 @ViewComponent
-public class HelloWorldNestedComponents {
-	public record Ctx(Content greetingText) implements ViewContext { }
+public class HelloWorldContent {
+	public record Ctx(Content greetingText) implements ViewContext {}
 }
 // docs:end component

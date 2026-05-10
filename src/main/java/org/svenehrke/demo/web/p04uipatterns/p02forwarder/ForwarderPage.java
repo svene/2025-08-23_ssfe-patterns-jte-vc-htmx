@@ -18,7 +18,7 @@ public class ForwarderPage {
 
 	@GetMapping(URL)
 	public Ctx ctx(
-		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Component-Forwarder-Page") String greeting
+		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Component-Forwarder-S02D01") String greeting
 	) {
 		return new Ctx(greeting);
 	}

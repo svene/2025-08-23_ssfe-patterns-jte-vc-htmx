@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.p02simplevcdemos.page04withcontentparamscomponent.HelloWorldContent
+@import org.svenehrke.demo.web.s02simplevcdemos.s02d04.HelloWorldContent
 <!DOCTYPE html>
 
 <html lang="en">

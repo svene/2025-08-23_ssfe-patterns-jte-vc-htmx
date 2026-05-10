@@ -1,16 +1,14 @@
-package org.svenehrke.demo.web.p02simplevcdemos.page02withcomponent;
-
+package org.svenehrke.demo.web.s02simplevcdemos.s02d01;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-
 // docs:start page
 @ViewComponent
 @Controller
-public class PageWithComponent {
-	public static final String URL = "/ui/demos/simplevc/pagewithcomponent";
+public class S02D01 {
+	public static final String URL = "/ui/demos/s02simplevcdemos/s02d01";
 	public record Ctx() implements ViewContext {}
 
 	@GetMapping(URL)

@@ -1,8 +1,8 @@
-@import org.svenehrke.demo.web.p02simplevcdemos.page01.Page
-@import org.svenehrke.demo.web.p02simplevcdemos.page02withcomponent.PageWithComponent
-@import org.svenehrke.demo.web.p02simplevcdemos.page03withparamscomponent.PageWithParamsComponent
-@import org.svenehrke.demo.web.p02simplevcdemos.page04withcontentparamscomponent.PageWithContentParamsComponent
-@import org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents.PageWithNestedComponents
+@import org.svenehrke.demo.web.s02simplevcdemos.s02d01.S02D01
+@import org.svenehrke.demo.web.s02simplevcdemos.s02d02.S02D02
+@import org.svenehrke.demo.web.s02simplevcdemos.s02d03.S02D03
+@import org.svenehrke.demo.web.s02simplevcdemos.s02d04.S02D04
+@import org.svenehrke.demo.web.s02simplevcdemos.s02d05.S02D05
 
 <section class="section">
     <h1 class="title">Simple Pages using View Components</h1>
@@ -12,21 +12,21 @@
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.main.maincard(
-            url = Page.URL,
+            url = S02D01.URL,
             title = @`Basic VC Page`,
             subtitle = @`made using a View Component`,
             content = @`Demo...`
             )
 
             @template.jte.main.maincard(
-            url = PageWithComponent.URL,
+            url = S02D02.URL,
             title = @`Basic VC Page`,
             subtitle = @`using a VC component`,
             content = @`Demo...`
             )
 
             @template.jte.main.maincard(
-            url = PageWithParamsComponent.URL,
+            url = S02D03.URL,
             title = @`Page and Component`,
             subtitle = @`with parameters`,
             recommendation = @`When page and/or component need parameters`,
@@ -34,7 +34,7 @@
             )
 
             @template.jte.main.maincard(
-            url = PageWithContentParamsComponent.URL,
+            url = S02D04.URL,
             title = @`Content parameter`,
             subtitle = @`passed from page to component`,
             recommendation = @`When html needs to be passed into component`,
@@ -42,7 +42,7 @@
             )
 
             @template.jte.main.maincard(
-            url = PageWithNestedComponents.URL,
+            url = S02D05.URL,
             title = @`Nested components`,
             subtitle = @`or: template in template`,
             recommendation = @`If you need components in content-parameters`,

@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents.HelloWorldNestedComponents
+@import org.svenehrke.demo.web.s02simplevcdemos.s02d05.HelloWorldNestedComponents
 <!DOCTYPE html>
 
 <html lang="en">

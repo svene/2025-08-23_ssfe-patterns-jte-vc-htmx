@@ -1,4 +1,5 @@
-package org.svenehrke.demo.web.p02simplevcdemos.page05withnestedcomponents;
+package org.svenehrke.demo.web.s02simplevcdemos.s02d02;
+
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
@@ -8,9 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 // docs:start page
 @ViewComponent
 @Controller
-public class PageWithNestedComponents {
-	public static final String URL = "/ui/demos/simplevc/pagewithnestedcomponents";
-	public record Ctx() implements ViewContext { }
+public class S02D02 {
+	public static final String URL = "/ui/demos/s02simplevcdemos/s02d02";
+	public record Ctx() implements ViewContext {}
 
 	@GetMapping(URL)
 	public Ctx ctx() {

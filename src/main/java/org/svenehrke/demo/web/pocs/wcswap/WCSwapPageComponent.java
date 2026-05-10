@@ -18,7 +18,7 @@ public class WCSwapPageComponent {
 
 	@GetMapping(URL)
 	public Ctx ctx(
-		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Insertion-Page") String greeting
+		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Insertion-S02D01") String greeting
 	) {
 		return new Ctx(greeting);
 	}
