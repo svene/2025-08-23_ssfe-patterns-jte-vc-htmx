@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.p01plainjte.PlainJTEController
+@import org.svenehrke.demo.web.s01plainjte.PlainJTEController
 
 <section class="section">
     <h1 class="title">Simple Pages using plain JTE files</h1>
@@ -8,21 +8,21 @@
     <div class="fixed-grid">
         <div class="grid">
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_01_URL,
+            url = PlainJTEController.S01D01_URL,
             title = @`Basic JTE Page`,
             subtitle = @`made using a JTE template`,
             content = @`Demo...`
             )
 
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_02_WITH_COMPONENT_URL,
+            url = PlainJTEController.S01D02_URL,
             title = @`Basic JTE Page`,
             subtitle = @`using a JTE component`,
             content = @`Demo...`
             )
 
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_03_WITH_PARAMS_COMPONENT_URL,
+            url = PlainJTEController.S01D03_URL,
             title = @`Page and Component`,
             subtitle = @`with parameters`,
             recommendation = @`When page and/or component need parameters`,
@@ -30,7 +30,7 @@
             )
 
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_04_WITH_CONTENT_PARAMS_COMPONENT_URL,
+            url = PlainJTEController.S01D04_URL,
             title = @`Content parameter`,
             subtitle = @`passed from page to component`,
             recommendation = @`When html needs to be passed into component`,
@@ -38,7 +38,7 @@
             )
 
             @template.jte.main.maincard(
-            url = PlainJTEController.PAGE_05_WITH_NESTED_COMPONENTS_URL,
+            url = PlainJTEController.S01D05_URL,
             title = @`Nested components`,
             subtitle = @`or: template in template`,
             recommendation = @`If you need components in content-parameters`,

@@ -1,7 +1,7 @@
-<%-- docs:start page03 --%>
+<%-- docs:start page --%>
 <%-- from model, passed by controller: --%>
 @param String greetee
-<%-- docs:end page03 --%>
+<%-- docs:end page --%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@
 <body class="page">
 
 <div>
-<%-- docs:start page03 --%>
+<%-- docs:start page --%>
 <h1>Page with Params-Component</h1>
 
 <%--
@@ -23,7 +23,7 @@ Second parameter coming in from controller through Model and passed to included 
   greeting = "Hey",
   greetee = greetee
 )
-<%-- docs:end page03 --%>
+<%-- docs:end page --%>
 <hr>
 <a href="http://localhost:4321/demos/s01/#3-page-and-component-with-parameters">Docs</a>
 
