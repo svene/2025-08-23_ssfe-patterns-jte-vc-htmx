@@ -1,5 +1,4 @@
-package org.svenehrke.demo.web.s04uipatterns.p02forwarder;
-
+package org.svenehrke.demo.web.s04uipatterns.s04d02;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
@@ -7,19 +6,21 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+// docs:start page
 @ViewComponent
 @Controller
-public class ForwarderPage {
+public class S04D02 {
 
-	public static final String URL = "/ui/pages/componentforwarder";
+	public static final String URL = "/ui/s04uipatterns/s04d02";
 
-	public record Ctx(String greeting) implements ViewContext {
-	}
+	public record Ctx(String greeting) implements ViewContext { }
 
 	@GetMapping(URL)
 	public Ctx ctx(
-		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Component-Forwarder-S02D01") String greeting
+		@RequestParam(name = "greeting", required = false, defaultValue = "Hello from Component-Forwarder-S02D01")
+		String greeting
 	) {
 		return new Ctx(greeting);
 	}
 }
+// docs:end page

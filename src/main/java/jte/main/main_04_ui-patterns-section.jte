@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.s04uipatterns.p01parentchild.ParentChildPage
-@import org.svenehrke.demo.web.s04uipatterns.p02forwarder.ForwarderPage
+@import org.svenehrke.demo.web.s04uipatterns.s04d01.S04D01
+@import org.svenehrke.demo.web.s04uipatterns.s04d02.S04D02
 
 <section class="section">
     <h1 class="title">UI Patterns</h1>
@@ -9,14 +9,14 @@
         <div class="grid">
 
             @template.jte.main.maincard(
-            url = ParentChildPage.URL,
+            url = S04D01.URL,
             title = @`Parent Child`,
             subtitle = @``,
             content = @`Demo...`
             )
 
             @template.jte.main.maincard(
-            url = ForwarderPage.URL,
+            url = S04D02.URL,
             title = @`Forwarder`,
             subtitle = @``,
             content = @`Demo...`

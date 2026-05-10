@@ -1,8 +1,9 @@
-package org.svenehrke.demo.web.s04uipatterns.p02forwarder;
+package org.svenehrke.demo.web.s04uipatterns.s04d02;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 
+// docs:start component
 @ViewComponent
 public class First {
 	public record Ctx(String greeting) implements ViewContext {}
@@ -22,3 +23,4 @@ public class First {
 		}
 	}
 }
+// docs:end component
