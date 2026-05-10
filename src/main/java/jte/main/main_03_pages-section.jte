@@ -1,7 +1,7 @@
-@import org.svenehrke.demo.web.s03pages.p01contentpage.ContentPage
-@import org.svenehrke.demo.web.s03pages.p02contentpagewithparam.ContentPageWithParam
-@import org.svenehrke.demo.web.s03pages.p03custompagewithparam.CustomPageWithParam
-@import org.svenehrke.demo.web.s03pages.p04mpa.MpaPage1
+@import org.svenehrke.demo.web.s03pages.s03d01.S03D01
+@import org.svenehrke.demo.web.s03pages.s03d02.S03D02
+@import org.svenehrke.demo.web.s03pages.s03d03.S03D03
+@import org.svenehrke.demo.web.s03pages.s03d04.S03D04P1
 
 <section class="section">
     <h1 class="title">Page Patterns</h1>
@@ -13,14 +13,14 @@
         <div class="grid">
 
             @template.jte.main.maincard(
-            url = ContentPage.URL,
+            url = S03D01.URL,
             title = @`Content Page`,
             recommendation = @`Recommended for most use cases`,
             content = @`Demo...`
             )
 
             @template.jte.main.maincard(
-            url = ContentPageWithParam.URL + "?greeting=Hey You!",
+            url = S03D02.URL + "?greeting=Hey You!",
             title = @`Content Page`,
             subtitle = @`taking a parameter`,
             recommendation = @`When the page itself needs a parameter`,
@@ -28,7 +28,7 @@
             )
 
             @template.jte.main.maincard(
-            url = CustomPageWithParam.URL,
+            url = S03D03.URL,
             title = @`Custom Page`,
             subtitle = @`taking a parameter`,
             recommendation = @`When the opinionated content page does not fit`,
@@ -36,7 +36,7 @@
             )
 
             @template.jte.main.maincard(
-            url = MpaPage1.URL,
+            url = S03D04P1.URL,
             title = @`MPA Example`,
             subtitle = @`with menu`,
             content = @`Demo...`

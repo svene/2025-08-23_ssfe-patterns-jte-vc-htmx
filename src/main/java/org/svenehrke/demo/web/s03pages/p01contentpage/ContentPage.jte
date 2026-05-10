@@ -1,9 +1,0 @@
-@import org.svenehrke.demo.web.s03pages.p01contentpage.ContentPageCode
-
-@template.jte.pages.bulmapage(
-content = @`
-    <h1 class="title">Content Page</h1>
-    <hr>
-    ${new ContentPageCode.Ctx()}
-`
-)

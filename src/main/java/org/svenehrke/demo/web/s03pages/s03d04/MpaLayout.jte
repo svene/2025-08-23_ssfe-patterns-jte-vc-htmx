@@ -1,12 +1,13 @@
-@import org.svenehrke.demo.web.s03pages.p04mpa.MpaLayout
-@import org.svenehrke.demo.web.s03pages.p04mpa.MpaPage1
-@import org.svenehrke.demo.web.s03pages.p04mpa.MpaPage2
-@import org.svenehrke.demo.web.s03pages.p04mpa.MpaCode
+@import org.svenehrke.demo.web.s03pages.s03d04.MpaLayout
+@import org.svenehrke.demo.web.s03pages.s03d04.S03D04P1
+@import org.svenehrke.demo.web.s03pages.s03d04.S03D04P2
 
+<%-- docs:start page --%>
 @param MpaLayout.Ctx ctx
 
 <!DOCTYPE html>
 <html lang="en">
+<%-- docs:end page --%>
 <head>
     <meta charset="UTF-8">
     <title>Application/Page Patterns</title>
@@ -25,23 +26,25 @@
 </section>
 
 <div class="container mt-1">
+    <%-- docs:start page --%>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item ${ ("page1".equals(ctx.selectedMenu())) ? "is-selected" : ""} " href="${MpaPage1.URL}">Page 1</a>
-                <a class="navbar-item ${ ("page2".equals(ctx.selectedMenu())) ? "is-selected" : ""} " href="${MpaPage2.URL}">Page 2</a>
+                <a class="navbar-item ${ ("page1".equals(ctx.selectedMenu())) ? "is-selected" : ""} " href="${S03D04P1.URL}">Page 1</a>
+                <a class="navbar-item ${ ("page2".equals(ctx.selectedMenu())) ? "is-selected" : ""} " href="${S03D04P2.URL}">Page 2</a>
             </div>
         </div>
     </nav>
-
     <div class="p-1 mt-1 area-border" style="min-height: 500px">
         ${ctx.content()}
     </div>
+    <%-- docs:end page --%>
 
     <hr>
-    ${new MpaCode.Ctx()}
+    <a href="http://localhost:4321/demos/s03/#4-mpa-example">Docs</a>
 
 </div>
-
+<%-- docs:start page --%>
 </body>
 </html>
+<%-- docs:end page --%>

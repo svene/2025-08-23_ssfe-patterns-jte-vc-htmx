@@ -1,15 +1,15 @@
-package org.svenehrke.demo.web.s03pages.p04mpa;
-
+package org.svenehrke.demo.web.s03pages.s03d04;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+// docs:start page
 @ViewComponent
 @Controller
-public class MpaPage1 {
-	public static final String URL = "/ui/pages/mpapage1";
+public class S03D04P2 {
+	public static final String URL = "/ui/s03pages/s03d04p2";
 	public record Ctx() implements ViewContext {}
 
 	@GetMapping(URL)
@@ -17,3 +17,4 @@ public class MpaPage1 {
 		return new Ctx();
 	}
 }
+// docs:end page
