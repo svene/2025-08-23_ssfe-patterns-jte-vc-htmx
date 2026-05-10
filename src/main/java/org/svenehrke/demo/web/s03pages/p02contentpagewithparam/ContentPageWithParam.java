@@ -1,0 +1,23 @@
+package org.svenehrke.demo.web.s03pages.p02contentpagewithparam;
+
+import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
+import de.tschuehly.spring.viewcomponent.jte.ViewContext;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@ViewComponent
+@Controller
+public class ContentPageWithParam {
+	public static final String URL = "/ui/pages/contentpagewithparam";
+
+	public record Ctx(String greeting) implements ViewContext {}
+
+	@GetMapping(URL)
+	public Ctx ctx(
+		// TODO: remove this param from other demos:
+		@RequestParam(name = "greeting", required = false, defaultValue = "Hello") String greeting
+	) {
+		return new Ctx(greeting);
+	}
+}

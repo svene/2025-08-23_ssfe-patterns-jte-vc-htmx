@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.p05htmxpatterns.p01urlcomponents.UrlComponentPage
+@import org.svenehrke.demo.web.s05htmxpatterns.p01urlcomponents.UrlComponentPage
 
 <section class="section">
     <h1 class="title">HTMX Patterns</h1>

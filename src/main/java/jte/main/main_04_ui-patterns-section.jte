@@ -1,5 +1,5 @@
-@import org.svenehrke.demo.web.p04uipatterns.p01parentchild.ParentChildPage
-@import org.svenehrke.demo.web.p04uipatterns.p02forwarder.ForwarderPage
+@import org.svenehrke.demo.web.s04uipatterns.p01parentchild.ParentChildPage
+@import org.svenehrke.demo.web.s04uipatterns.p02forwarder.ForwarderPage
 
 <section class="section">
     <h1 class="title">UI Patterns</h1>
