@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.web.s05htmxpatterns.p01urlcomponents.UrlComponentPage
+@import org.svenehrke.demo.web.s05htmxpatterns.s05d01.S05D01
 
 <section class="section">
     <h1 class="title">HTMX Patterns</h1>
@@ -8,7 +8,7 @@
         <div class="grid">
 
             @template.jte.main.maincard(
-            url = UrlComponentPage.URL,
+            url = S05D01.URL,
             title = @`URL Components`,
             subtitle = @`include components dynamically by their URL`,
             content = @`Demo...`

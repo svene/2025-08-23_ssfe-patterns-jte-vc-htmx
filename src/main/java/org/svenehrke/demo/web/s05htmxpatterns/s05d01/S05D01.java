@@ -1,14 +1,15 @@
-package org.svenehrke.demo.web.s05htmxpatterns.p01urlcomponents;
+package org.svenehrke.demo.web.s05htmxpatterns.s05d01;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+// docs:start page
 @ViewComponent
 @Controller
-public class UrlComponentPage {
-	public static final String URL = "/ui/pages/htmx/urlcomponents";
+public class S05D01 {
+	public static final String URL = "/ui/s05htmxpatterns/s05d01";
 
 	public record Ctx() implements ViewContext {}
 
@@ -17,3 +18,4 @@ public class UrlComponentPage {
 		return new Ctx();
 	}
 }
+// docs:end page
