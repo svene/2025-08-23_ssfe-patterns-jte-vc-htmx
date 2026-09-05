@@ -11,8 +11,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Application/Page Patterns</title>
-    <script src="/webjars/htmx.org/dist/htmx.js"></script>
-    <link rel="stylesheet" href="/webjars/bulma/css/bulma.css"/>
+    <script src="/js/htmx.org/4.0.0/htmx.js"></script>
+    <link rel="stylesheet" href="/webjars/bulma/1.0.4/css/bulma.css"/>
     <link rel="stylesheet" href="/main.css"/>
     <link rel="stylesheet" href="/simplepage.css"/>
 </head>

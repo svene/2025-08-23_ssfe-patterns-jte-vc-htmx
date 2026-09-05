@@ -4,7 +4,7 @@
 xhead = @`
     <script type="module" src="/wcswappage.js" defer></script>
     <script>
-		// htmx.logAll();
+		// htmx.config.logAll = true;
     </script>
 `,
 content = @`
