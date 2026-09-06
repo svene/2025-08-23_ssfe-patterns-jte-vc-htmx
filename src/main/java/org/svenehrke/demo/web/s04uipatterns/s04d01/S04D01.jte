@@ -14,6 +14,6 @@ content = @`
     </div>
     <%-- docs:end page --%>
     <hr>
-    <a href="http://localhost:4321/demos/s04/#1-parent-child">Docs</a>
+    <a href="http://localhost:4321/technologies/01_jte-vc/s04/#1-parent-child">Docs</a>
 `) <%-- docs: page --%>
 

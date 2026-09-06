@@ -17,5 +17,5 @@ content = @`
     <pre>hx-get=${S05D01Message.URL}?message=hello</pre>
 <%-- docs:end page --%>
     <hr>
-    <a href="http://localhost:4321/demos/s05/#1-url-components">Docs</a>
+    <a href="http://localhost:4321/technologies/01_jte-vc/s05/#1-url-components">Docs</a>
 `) <%-- docs: page --%>

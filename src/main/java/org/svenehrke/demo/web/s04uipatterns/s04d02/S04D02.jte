@@ -11,5 +11,5 @@ content = @`
     <div>${new First().ctx("hello with forward")}</div> <%-- usage of context function bc. of logic --%>
     <%-- docs:end page --%>
     <hr>
-    <a href="http://localhost:4321/demos/s04/#2-forwarder">Docs</a>
+    <a href="http://localhost:4321/technologies/01_jte-vc/s04/#2-forwarder">Docs</a>
 `)<%-- docs page --%>

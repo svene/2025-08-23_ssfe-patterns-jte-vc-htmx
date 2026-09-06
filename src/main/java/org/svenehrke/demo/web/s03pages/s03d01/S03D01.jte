@@ -6,4 +6,4 @@
 )
 <%-- docs:end page --%>
 <hr>
-<a href="http://localhost:4321/demos/s03/#1-content-page">Docs</a>
+<a href="http://localhost:4321/technologies/01_jte-vc/s03/#1-content-page">Docs</a>

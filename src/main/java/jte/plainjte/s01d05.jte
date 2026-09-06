@@ -21,7 +21,7 @@
   `)
 <%-- docs:end page --%>
 <hr>
-<a href="http://localhost:4321/demos/s01/#5-nested-components">Docs</a>
+<a href="http://localhost:4321/technologies/01_jte-vc/s01/#5-nested-components">Docs</a>
 
 </div>
 

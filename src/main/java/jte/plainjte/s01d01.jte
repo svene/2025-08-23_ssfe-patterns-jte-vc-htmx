@@ -11,7 +11,7 @@
 <h1>Application Page</h1>
 <!-- docs:end page -->
     <hr>
-    <a href="http://localhost:4321/demos/s01/#1-basic-page-using-a-jte-template">Docs</a>
+    <a href="http://localhost:4321/technologies/01_jte-vc/s01/#1-basic-page-using-a-jte-template">Docs</a>
 
 </div>
 </body>

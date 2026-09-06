@@ -15,7 +15,7 @@
 ${new HelloWorldParams.Ctx("hello", "world")}
 <%-- docs:end page --%>
     <hr>
-    <a href="http://localhost:4321/demos/s02/#3-parameters">Docs</a>
+    <a href="http://localhost:4321/technologies/01_jte-vc/s02/#3-parameters">Docs</a>
 </div>
 </body>
 </html>

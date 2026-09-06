@@ -14,7 +14,7 @@
 <!-- docs:end page -->
 
 <hr>
-<a href="http://localhost:4321/demos/s01/#2-basic-page-using-a-jte-component">Docs</a>
+<a href="http://localhost:4321/technologies/01_jte-vc/s01/#2-basic-page-using-a-jte-component">Docs</a>
 
 </div>
 </body>

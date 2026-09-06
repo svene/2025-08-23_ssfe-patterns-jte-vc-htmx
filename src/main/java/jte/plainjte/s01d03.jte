@@ -25,7 +25,7 @@ Second parameter coming in from controller through Model and passed to included 
 )
 <%-- docs:end page --%>
 <hr>
-<a href="http://localhost:4321/demos/s01/#3-page-and-component-with-parameters">Docs</a>
+<a href="http://localhost:4321/technologies/01_jte-vc/s01/#3-page-and-component-with-parameters">Docs</a>
 
 </div>
 </body>

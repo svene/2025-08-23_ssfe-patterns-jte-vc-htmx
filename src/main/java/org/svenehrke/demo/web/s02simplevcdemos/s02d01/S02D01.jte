@@ -12,7 +12,7 @@
     <h1>Application Page</h1>
 <%-- docs:end page --%>
     <hr>
-    <a href="http://localhost:4321/demos/s02/#1-basic-view-component-page">Docs</a>
+    <a href="http://localhost:4321/technologies/01_jte-vc/s02/#1-basic-view-component-page">Docs</a>
 
 </div>
 </body>

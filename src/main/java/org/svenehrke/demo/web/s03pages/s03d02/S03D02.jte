@@ -10,5 +10,5 @@
 )
 <%-- docs:end page --%>
 <hr>
-<a href="http://localhost:4321/demos/s03/#2-parameter">Docs</a>
+<a href="http://localhost:4321/technologies/01_jte-vc/s03/#2-parameter">Docs</a>
 
