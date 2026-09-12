@@ -21,7 +21,7 @@
 <section class="hero is-link">
     <div class="hero-body">
         <p class="title">Template Based Application/Page Patterns</p>
-        <p class="subtitle">SSFE-Patterns Demo with JTE-VC</p>
+        <p class="subtitle">Hypermedia-Patterns Demo with JTE-VC</p>
     </div>
 </section>
 
